@@ -60,4 +60,4 @@ A idéia é dividir um conjunto de condições de testes em grupos ou conjuntos 
 - **Caso de Teste 2:** Inputar o valor 20
   - **Resultado:** Maior de idade, pode beber bebida alcoólica
 
-**Obs.:** Os valores informados nos casos de testes são valores que estão respeitando os valores da partição. No caso do teste 1 poderia ser qualquer valor menor que 18 e no caso de teste 2 poderia ser qualquer valor maior ou igual a 18.
+**Obs.:** Os valores informados nos casos de testes são valores que estão respeitando os valores da partição. No **caso do teste 1** poderia ser qualquer valor menor que 18 e no **caso de teste 2** poderia ser qualquer valor maior ou igual a 18.
