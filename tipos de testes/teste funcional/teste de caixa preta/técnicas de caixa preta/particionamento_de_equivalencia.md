@@ -16,7 +16,9 @@ A idéia é dividir um conjunto de condições de testes em grupos ou conjuntos 
 
 ## **Exemplos**
 
-**Regra de negócio 1:** No Brasil somente pessoas com 18 anos ou mais podem beber.
+### **Regra de negócio 1**
+
+No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 1:** Identificar a variável de entrada, logo ao ler a regra de negócio identificamos que a variável de entrada é "**IDADE**".
 
@@ -64,7 +66,9 @@ A idéia é dividir um conjunto de condições de testes em grupos ou conjuntos 
 
 ______
 
-**Regra de negócio 2:** Em uma academia para ser um associado é necessário que a pessoa tenha idade entre 16 a 60 anos de idade.
+### **Regra de negócio 2**
+
+Em uma academia para ser um associado é necessário que a pessoa tenha idade entre 16 a 60 anos de idade.
 
 > **Passo 1:** Identificar a variável de entrada, logo ao ler a regra de negócio identificamos que a variável de entrada é "**IDADE**".
 
@@ -130,7 +134,9 @@ Ou você pode cria-lá assim:
 
 ____
 
-**Regra de negócio 3:** O valor dos produtos da loja são sempre maiores que zero e nunca devem ultrapassar R$ 7.000,00.
+### **Regra de negócio 3**
+
+O valor dos produtos da loja são sempre maiores que zero e nunca devem ultrapassar R$ 7.000,00.
 
 > **Passo 1:** Identificar a variável de entrada, logo ao ler a regra de negócio identificamos que a variável de entrada é "**VALOR DO PRODUTO**".
 
