@@ -1,0 +1,1 @@
+# [Introduão](https://www.ministryoftesting.com/dojo/lessons/test-heuristics-cheat-sheet)
