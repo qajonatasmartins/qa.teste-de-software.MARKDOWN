@@ -4,7 +4,6 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 
 ## Índice
 
-
 - Tipos de testes
   - Testes funcional
     - Teste de caixa preta
@@ -12,6 +11,18 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
     - Teste de caixa cinza
     - Teste baseado em experiência
   - Teste não funcional
+    - Performance
+      - Métricas de performance
+      - Tipos de testes de performance
+        - Teste de capacidade
+        - Teste de carga
+        - Teste de concorrência
+        - Teste de escalabilidade
+        - Teste de extresse
+        - Teste de performance
+        - Teste de pico
+        - Teste de resistência
+    - Usabilidade
   - Teste relacionado a mudança
 - Testes dinâmicos
 - Testes estáticos
@@ -21,6 +32,9 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
   - Teste de integração
   - Teste de sistema
 - Mobile
+  - Emuladores e simuladores
+  - Técnicas de teste baseados na experiência
+  - Tipos de testes
 - Segurança
 - Características de qualidade de software
 - [Heurística](./heur%C3%ADsticas/01_introducao.md)
@@ -34,6 +48,12 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
   - Instrumentados
   - Desktop
 - Cases de sucesso (implantação de cultura de qualidade)
+  - Teste de portabilidade
+  - Teste de usabilidade
+  - Teste de adequação funcional
+  - Teste de correção funcional
+  - Teste de integridade funcional
+  - Teste de interoperabilidade
 - DevOps
 - QaOps
 - Referências da área de qualidade
