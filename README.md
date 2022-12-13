@@ -6,7 +6,9 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 
 - Tipos de testes
   - Testes funcional
-    - Teste de caixa preta
+    - [Teste de caixa preta](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/caixa_preta.md)
+      - [Técnicas Analise de valor limite](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/t%C3%A9cnicas%20de%20caixa%20preta/analise_de_valor_limite.md)
+      - [Técnicas Particionamento de equivalência](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/t%C3%A9cnicas%20de%20caixa%20preta/particionamento_de_equivalencia.md)
     - Teste de caixa branca
     - Teste de caixa cinza
     - Teste baseado em experiência
@@ -56,9 +58,12 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
   - Teste de interoperabilidade
 - DevOps
 - QaOps
-- Referências da área de qualidade
-- Indicação de cursos
+- [Refêrencias de Qualidade de Software](./refer%C3%AAncias%20de%20qualidade/referencia_de_qualidade.md)
+- Cursos
 - Trilha de carreira
+- Entrevistas QA
+  - [Perguntas](./entrevistas/perguntas//perguntas.md)
+  - [Dicas de como enviar um bom desafio técnico](./entrevistas/desafio%20t%C3%A9cnico/desafio_tecnico.md)
 
 ## Solicitações de inclusão
 
