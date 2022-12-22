@@ -8,7 +8,7 @@ A Heurística Vader foi criado por Stuart Ashman. A VADER está focada em testar
 
 O que Ashman imaginou está representado na figura abaixo. O objetivo é descrever seus cenários de teste com base nesses cinco pilares:
 
-- Verbs: Ao trabalhar com uma API rest e falar sobre verbos, precisamos saber a função de cada verbo http e se cada um é usado corretamente.
+- Verbs: Ao trabalhar com uma API rest ou API GraphQL e falar sobre verbos, precisamos saber a função de cada verbo http e se cada um é usado corretamente.
 
 - Authorization: Quando falamos em autorização, devemos ser capazes de identificar todas as falhas de segurança.
 
