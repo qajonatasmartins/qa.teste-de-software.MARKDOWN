@@ -99,7 +99,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 ```
 
-> **Passo 6:** Informe os valores abaixo das partições válidas. No caso o valor "17"
+> **Passo 6:** Informe os valores abaixo das partições inválidas. No caso o valor "17"
 
 ```
                                IDADE
