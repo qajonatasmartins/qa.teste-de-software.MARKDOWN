@@ -62,6 +62,7 @@
 - [Smartbear](https://smartbear.com/learn/automated-testing/software-testing-methodologies/)
 - [Avenuecode - Testing](https://blog.avenuecode.com/topic/quality-assurance)
 - [android-ui-testing](https://android-ui-testing.github.io/Cookbook/basics/testing_theory/)
+- [Team City - JetBrains](https://www.jetbrains.com/pt-br/teamcity/ci-cd-guide/)
 
 ## Artigos
 
