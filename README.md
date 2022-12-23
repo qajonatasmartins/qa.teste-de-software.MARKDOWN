@@ -4,6 +4,8 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 
 ## Índice
 
+- Fundamentos de testes
+  - Erro, Defeito e Falha
 - Tipos de testes
   - Testes funcional
     - [Teste de caixa preta](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/caixa_preta.md)
@@ -60,6 +62,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 - QaOps
 - [Refêrencias de Qualidade de Software](./refer%C3%AAncias%20de%20qualidade/referencia_de_qualidade.md)
 - Cursos
+- [Sites para QA](./sites%20para%20QA/sitesQA.md)
 - Trilha de carreira
 - Entrevistas QA
   - [Perguntas](./entrevistas/perguntas//perguntas.md)
