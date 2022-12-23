@@ -1,4 +1,4 @@
-# [Introdução](https://www.ministryoftesting.com/dojo/lessons/test-heuristics-cheat-sheet)
+# [Introdução](https://s3.eu-west-1.amazonaws.com/matrix.assets/xjhjzb1vzrdncmb4hc3tqg11da2q)
 
 1. [Baica](baica.md)
 2. [Boundaries](boundaries.md)
