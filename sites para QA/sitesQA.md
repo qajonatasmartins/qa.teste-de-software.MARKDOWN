@@ -35,6 +35,7 @@
 ## Cursos free
 
 - [cursoemvideo](https://www.cursoemvideo.com/cursos/)
+- [testautomationu](https://testautomationu.applitools.com/learningpaths.html)
 
 ## Tutoriais/Estudos
 
