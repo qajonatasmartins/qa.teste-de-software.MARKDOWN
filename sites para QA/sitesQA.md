@@ -94,6 +94,7 @@
 
 ## Tools
 
-- [pairwise](https://pairwise.teremokgames.com/)
+- [Pairwise](https://pairwise.teremokgames.com/)
 - [VS Code online](https://vscode.dev/)
 - [refactoring](https://refactoring.guru/pt-br)
+- [Playcode](https://playcode.io/new)
