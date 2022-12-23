@@ -52,6 +52,9 @@
 ## Livros
 
 - [Leanpub](https://leanpub.com/)
+- [Manning](https://www.manning.com/)
+- [effective-software-testing](https://livebook.manning.com/book/effective-software-testing/chapter-1/)
+- [infrastructure-as-code-patterns-and-practices](https://livebook.manning.com/book/infrastructure-as-code-patterns-and-practices/chapter-1/v-8/9)
 
 ## Outros
 
