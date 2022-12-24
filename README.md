@@ -64,6 +64,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 - Cursos
 - [Sites para QA](./sites%20para%20QA/sitesQA.md)
 - Trilha de carreira
+- [Frameworks/Ferramentas](./frameworks/introducao_frameworks.md)
 - Entrevistas QA
   - [Perguntas](./entrevistas/perguntas//perguntas.md)
   - [Dicas de como enviar um bom desafio técnico](./entrevistas/desafio%20t%C3%A9cnico/desafio_tecnico.md)

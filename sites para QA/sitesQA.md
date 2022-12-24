@@ -94,6 +94,18 @@
 
 ## Tools
 
-- [pairwise](https://pairwise.teremokgames.com/)
+- [Pairwise](https://pairwise.teremokgames.com/)
 - [VS Code online](https://vscode.dev/)
-- [refactoring](https://refactoring.guru/pt-br)
+- [Refactoring](https://refactoring.guru/pt-br)
+- [Regextester](https://www.regextester.com/)
+- [Debugbear](https://www.debugbear.com/test/website-speed)
+- [Html-size-analyzer](https://www.debugbear.com/html-size-analyzer)
+- [Webpagetest](https://www.webpagetest.org/)
+- [Btop](https://github.com/aristocratos/btop#installation)
+- [Web-vitals](https://chrome.google.com/webstore/detail/web-vitals/ahfhijdlegdabablpippeagghigmibma)
+- [Sitespeed](https://www.sitespeed.io/)
+- [Mockoon](https://mockoon.com/docs/latest/about/)
+- [Cherrybomb](https://github.com/blst-security/cherrybomb)
+- [Beef](https://github.com/beefproject/beef)
+- [Violating-gdpr](https://www.violating-gdpr.com/)
+- [Observatory Mozilla](https://observatory.mozilla.org/)
