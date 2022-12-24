@@ -52,6 +52,9 @@
 ## Livros
 
 - [Leanpub](https://leanpub.com/)
+- [Manning](https://www.manning.com/)
+- [effective-software-testing](https://livebook.manning.com/book/effective-software-testing/chapter-1/)
+- [infrastructure-as-code-patterns-and-practices](https://livebook.manning.com/book/infrastructure-as-code-patterns-and-practices/chapter-1/v-8/9)
 
 ## Outros
 
@@ -97,6 +100,7 @@
 - [Pairwise](https://pairwise.teremokgames.com/)
 - [VS Code online](https://vscode.dev/)
 - [Refactoring](https://refactoring.guru/pt-br)
+- [Playcode](https://playcode.io/new)
 - [Regextester](https://www.regextester.com/)
 - [Debugbear](https://www.debugbear.com/test/website-speed)
 - [Html-size-analyzer](https://www.debugbear.com/html-size-analyzer)

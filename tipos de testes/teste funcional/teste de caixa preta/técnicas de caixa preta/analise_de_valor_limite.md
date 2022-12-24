@@ -139,4 +139,8 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 - **Caso de Teste 3:** Informar a idade 19
   - **Resultado:** Maior de idade, pode beber bebida alcoólica
 
-[Mais dicas de análise de valor limite](toolsqa.com/software-testing/istqb/boundary-value-analysis/)
+## Referências
+
+- [Mais dicas de análise de valor limite](toolsqa.com/software-testing/istqb/boundary-value-analysis/)
+- [Julio de lima - Alavanque sua carreira em testes de software e aumente seu salário em mais de 30%](https://programa.juliodelima.com.br/)
+- [Análise de valor limite - Teste de Software](https://www.youtube.com/watch?v=a8eYjuz9RUA)
