@@ -31,6 +31,7 @@
 - [alexromanov](https://alexromanov.github.io/)
 - [Conorfi](https://conorfi.com/category/software-testing/)
 - [Linha de codigo](http://www.linhadecodigo.com.br/qualidadetestes.aspx)
+- [4alltests](http://blog.4alltests.com.br/)
 
 ## Cursos free
 
@@ -55,6 +56,7 @@
 - [Manning](https://www.manning.com/)
 - [effective-software-testing](https://livebook.manning.com/book/effective-software-testing/chapter-1/)
 - [infrastructure-as-code-patterns-and-practices](https://livebook.manning.com/book/infrastructure-as-code-patterns-and-practices/chapter-1/v-8/9)
+- [OS CAMINHOS DO TESTADOR](http://aprendendotestar.com.br/ebook.html)
 
 ## Outros
 
