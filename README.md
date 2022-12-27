@@ -62,6 +62,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 - QaOps
 - [Refêrencias de Qualidade de Software](./refer%C3%AAncias%20de%20qualidade/referencia_de_qualidade.md)
 - Cursos
+- [Livros para QAs do zero ao avançado](./livros%20QA/livros.md)
 - [Sites para QA](./sites%20para%20QA/sitesQA.md)
 - Trilha de carreira
 - [Frameworks/Ferramentas](./frameworks/introducao_frameworks.md)
