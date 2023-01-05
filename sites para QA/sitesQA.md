@@ -10,6 +10,7 @@
 - [Testing tit bits](https://testingtitbits.com/)
 - [Test and code](https://testandcode.com/)
 - [Stickyminds](https://www.stickyminds.com/)
+- [newsletter-talking-about-testing](https://mailchi.mp/6b1f35857228/newsletter-talking-about-testing)
   
 ## Blog
 
@@ -32,11 +33,16 @@
 - [Conorfi](https://conorfi.com/category/software-testing/)
 - [Linha de codigo](http://www.linhadecodigo.com.br/qualidadetestes.aspx)
 - [4alltests](http://blog.4alltests.com.br/)
+- [VTestCorp](https://www.vtestcorp.com/category/blog/)
+- [talkingabouttesting](https://talkingabouttesting.com/)
+- [Medium May Fernandes](https://medium.com/@mayfernandes)
 
 ## Cursos free
 
 - [cursoemvideo](https://www.cursoemvideo.com/cursos/)
 - [testautomationu](https://testautomationu.applitools.com/learningpaths.html)
+- [formacao-quality-assurance-experience](https://www.dio.me/catalog?careerId=22e059a2-e71a-44b2-99ef-8d7fbddd086f)
+- 
 
 ## Tutoriais/Estudos
 
@@ -49,6 +55,7 @@
 - [Geek for geeks](https://www.geeksforgeeks.org/software-testing-basics/)
 - [Nngroup](https://www.nngroup.com/articles/usability-testing-101/)
 - [tryqa](https://tryqa.com/)
+- [isolution](https://isolution.pro/pt/t)
 
 ## Livros
 
@@ -92,6 +99,7 @@
 - [Executando testes paralelos em vários dispositivos](https://docs.gondolatest.com/mobile-testing-guide/setup-running-parallel-with-multiple-devices.html#introduction)
 - [Parallel Android Tests](https://appium.io/docs/en/advanced-concepts/parallel-tests/)
 - [Appium Parallel Execution using Java Thread – Android](http://www.automationtestinghub.com/appium-parallel-execution/)
+- [Tips Cypress](https://cypress.tips/)
 
 ## Developer
 

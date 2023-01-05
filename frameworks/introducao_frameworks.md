@@ -10,6 +10,7 @@
 - [WebdriverIO](https://webdriver.io)
 - [Playwright](https://playwright.dev/)
 - [Cypress](https://www.cypress.io/)
+- [Robotframework](https://robotframework.org/)
 
 ## API
 
@@ -17,6 +18,8 @@
 - [Pactum JS](https://pactumjs.github.io/)
 - [Playwright](https://playwright.dev/)
 - [Karate](https://karatelabs.github.io/karate/)
+- [Postman](https://www.postman.com/product/tools/)
+- [Robotframework](https://robotframework.org/)
 
 ## Regressão visual
 

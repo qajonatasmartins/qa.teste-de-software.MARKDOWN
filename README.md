@@ -65,6 +65,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 - [Livros para QAs do zero ao avançado](./livros%20QA/livros.md)
 - [Sites para QA](./sites%20para%20QA/sitesQA.md)
 - Trilha de carreira
+- [Repositórios Úteis para QA](./repositorios%20uteis/repositorios.md)
 - [Canais do Youtube QA](./canais%20do%20youtube%20qa/canaisQA.md)
 - [Frameworks/Ferramentas](./frameworks/introducao_frameworks.md)
 - Entrevistas QA

@@ -49,7 +49,7 @@
 ### QA Thami
 
  <p align="">
-<img alt="Foto de QA Thami" width="10%" style="padding:5px" src="https://media.licdn.com/dms/image/D4D03AQGgmS_PNQPRfQ/profile-displayphoto-shrink_200_200/0/1667526929285?e=1677110400&v=beta&t=fNJxlg3whxseSFaWO2Us-hDK7uAjA5bxEx7-n4W_bFc"/>
+<img alt="Foto de QA Thami" width="10%" style="padding:5px" src="https://media.licdn.com/dms/image/D4D03AQGkwalkB0MM5Q/profile-displayphoto-shrink_200_200/0/1672059713874?e=1678320000&v=beta&t=VrTghJ9FbcdfbzFdwArjO7YjWIbTIXgt8wPIn9kExNI"/>
 	<a href="https://www.linkedin.com/in/thamires-a-659a8411b/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
 	<a href="https://www.instagram.com/qa.thami/"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
 </p>
@@ -68,4 +68,29 @@
 <img alt="Foto de Letícia Maine" width="10%" style="padding:5px" src="https://yt3.googleusercontent.com/ytc/AMLnZu9bW_eL16srVnhHeCg9XNG7-XJKPU5tWgvfuZgkCw=s88-c-k-c0x00ffffff-no-rj"/>
 	<a href="https://www.youtube.com/channel/UCwWUziFUFY2TRkQ79zjmIuA"><img alt="youtube" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/344/youtube.png"/></a>
 	<a href="https://www.instagram.com/lelemaine/"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
+</p>
+
+### Mayara Ribeiro Fernandes
+
+ <p align="">
+<img alt="Foto de Mayara" width="10%" style="padding:5px" src="https://avatars.githubusercontent.com/u/26631940?v=4"/>
+	<a href="https://github.com/mayribeirofernandes"><img alt="github" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
+	<a href="https://www.linkedin.com/in/mayfernandes/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+</p>
+
+### Walmyr Lima e Silva Filho
+
+ <p align="">
+<img alt="Foto de Walmyr" width="10%" style="padding:5px" src="https://avatars.githubusercontent.com/u/2768415?v=4"/>
+	<a href="https://github.com/wlsf82"><img alt="github" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
+	<a href="https://www.linkedin.com/in/walmyr-lima-e-silva-filho/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	<a href="https://www.youtube.com/@TalkingAboutTesting"><img alt="youtube" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/344/youtube.png"/></a>
+</p>
+
+### Paulo Gonçalves
+
+ <p align="">
+<img alt="Foto de Paulo Gonçalves" width="10%" style="padding:5px" src="https://media.licdn.com/dms/image/C4E03AQHQgHeySNWInA/profile-displayphoto-shrink_200_200/0/1621266617571?e=1678320000&v=beta&t=tTYkE_oWpcWIeJirUMU1gHVdZeeuEI8w53pJaAp2ibo"/>
+	<a href="https://github.com/PauloGoncalvesBH"><img alt="github" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
+	<a href="https://www.linkedin.com/in/paulo-goncalves/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
 </p>
