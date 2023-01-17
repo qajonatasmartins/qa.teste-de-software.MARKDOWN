@@ -16,3 +16,4 @@
 - [Qualicode](https://www.youtube.com/@qualicode)
 - [IterasysBrasil](https://www.youtube.com/@IterasysBrasil)
 - [Thetips4you](https://www.youtube.com/@Thetips4you)
+- [ChronosAcademyBR](https://www.youtube.com/c/ChronosAcademyBR)

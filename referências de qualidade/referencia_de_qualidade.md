@@ -94,3 +94,12 @@
 	<a href="https://github.com/PauloGoncalvesBH"><img alt="github" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/github.png"/></a>
 	<a href="https://www.linkedin.com/in/paulo-goncalves/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
 </p>
+
+### Adam Vinicius Cezar Luchini
+
+ <p align="">
+<img alt="Foto de Adam Vinicius" width="10%" style="padding:5px" src="https://media.licdn.com/dms/image/C5603AQHN-VdZ-tKDgg/profile-displayphoto-shrink_200_200/0/1619019447995?e=1679529600&v=beta&t=vS51q3Xhl6Y-F9A7kt4GNstRRmVTZOd66ZcVcEidmy0"/>
+	<a href="https://www.linkedin.com/in/adamviniciusqa/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	<a href="https://www.youtube.com/c/ChronosAcademyBR"><img alt="youtube" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/344/youtube.png"/></a>
+	<a href="https://www.instagram.com/chronos.academy/"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
+</p>
