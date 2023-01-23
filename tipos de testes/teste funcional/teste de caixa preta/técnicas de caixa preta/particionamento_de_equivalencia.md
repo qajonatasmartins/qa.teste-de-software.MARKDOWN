@@ -186,7 +186,6 @@ Menor que R$ 0,00 | R$ 0,01 até R$ 7.000,00| R$ 7.000,01 ou maior
 - **Caso de Teste 3:** informar o valor R$ 7.345,11
   - **Resultado:** Valor do produto inválido.
 
-
 ## Referências
 
 - [Técnica de Teste — Particionamento de Equivalência](https://medium.com/revista-tspi/t%C3%A9cnica-de-teste-particionamento-de-equival%C3%AAncia-d32a7d689d82)
