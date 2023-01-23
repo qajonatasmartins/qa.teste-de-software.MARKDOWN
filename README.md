@@ -11,10 +11,11 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
     - [Teste de caixa preta](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/caixa_preta.md)
       - [Técnicas Analise de valor limite](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/t%C3%A9cnicas%20de%20caixa%20preta/analise_de_valor_limite.md)
       - [Técnicas Particionamento de equivalência](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/t%C3%A9cnicas%20de%20caixa%20preta/particionamento_de_equivalencia.md)
-    - Teste de caixa branca
+      - [Adivinhação de erro (Erro imaginado)](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/t%C3%A9cnicas%20de%20caixa%20preta/advinhacao_erro.md)
+    - [Teste de caixa branca](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20branca/teste_caixa_branca.md)
     - Teste de caixa cinza
     - Teste baseado em experiência
-  - Teste não funcional
+  - [Teste não funcional](./tipos%20de%20testes/teste%20n%C3%A3o%20funcional/teste_nao_funcional.md)
     - Performance
       - Métricas de performance
       - Tipos de testes de performance
@@ -27,6 +28,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
         - Teste de pico
         - Teste de resistência
     - Usabilidade
+    - [Segurança](./tipos%20de%20testes/teste%20n%C3%A3o%20funcional/teste%20de%20seguran%C3%A7a/teste_de_seguranca.md)
   - Teste relacionado a mudança
 - Testes dinâmicos
 - Testes estáticos
