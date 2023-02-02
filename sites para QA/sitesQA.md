@@ -124,3 +124,4 @@
 - [Beef](https://github.com/beefproject/beef)
 - [Violating-gdpr](https://www.violating-gdpr.com/)
 - [Observatory Mozilla](https://observatory.mozilla.org/)
+- [Ferramenta de análise estática para acessibilidade](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter)
