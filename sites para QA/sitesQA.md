@@ -42,7 +42,7 @@
 - [cursoemvideo](https://www.cursoemvideo.com/cursos/)
 - [testautomationu](https://testautomationu.applitools.com/learningpaths.html)
 - [formacao-quality-assurance-experience](https://www.dio.me/catalog?careerId=22e059a2-e71a-44b2-99ef-8d7fbddd086f)
-- 
+- [web security academy](https://portswigger.net/web-security)
 
 ## Tutoriais/Estudos
 
@@ -56,6 +56,7 @@
 - [Nngroup](https://www.nngroup.com/articles/usability-testing-101/)
 - [tryqa](https://tryqa.com/)
 - [isolution](https://isolution.pro/pt/t)
+- [academy gatling](https://academy.gatling.io/)
 
 ## Livros
 
