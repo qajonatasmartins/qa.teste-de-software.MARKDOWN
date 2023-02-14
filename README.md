@@ -71,6 +71,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 - [Repositórios Úteis para QA](./repositorios%20uteis/repositorios.md)
 - [Canais do Youtube QA](./canais%20do%20youtube%20qa/canaisQA.md)
 - [Frameworks/Ferramentas](./frameworks/introducao_frameworks.md)
+- [Dicas de processos de QA](./dicas%20de%20processos%20de%20QA/QA%20(Processos).png)
 - Entrevistas QA
   - [Perguntas](./entrevistas/perguntas//perguntas.md)
   - [Dicas de como enviar um bom desafio técnico](./entrevistas/desafio%20t%C3%A9cnico/desafio_tecnico.md)
