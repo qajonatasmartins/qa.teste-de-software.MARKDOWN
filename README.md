@@ -4,6 +4,8 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 
 ## Índice
 
+- [Artigos](/artigos/artigos.md)
+- [Palestras](/palestras/palestras.md)
 - Fundamentos de testes
   - Erro, Defeito e Falha
 - Tipos de testes
