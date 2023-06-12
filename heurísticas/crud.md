@@ -8,5 +8,5 @@ Criada por James Martin foi o responsável por propagar o conceito de CRUD em se
 
 - **CREATED**: Criar um produto
 - **READ**: Pesquisar o produto criado ou observar se ele aparece na lista de produtos cadastrados
-- **ALTER**: Alterar algum dado desse produto e verificar se a alteração foi feita
+- **UPDATE**: Alterar algum dado desse produto e verificar se a alteração foi feita
 - **DELETE**: Excluir esse produto e verificar se a exclusão foi feita.
