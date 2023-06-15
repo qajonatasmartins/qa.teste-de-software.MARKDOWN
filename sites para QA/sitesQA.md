@@ -1,5 +1,9 @@
 # Sites para QA
 
+## Roadmap
+
+- [Roadmap QA](https://roadmap.sh/qa)
+
 ## Newsletter
 
 - [Software testing weekly](https://softwaretestingweekly.com/)
