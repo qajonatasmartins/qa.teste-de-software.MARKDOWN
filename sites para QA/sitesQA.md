@@ -3,6 +3,9 @@
 ## Roadmap
 
 - [Roadmap QA](https://roadmap.sh/qa)
+- [QARoadMap](https://miro.com/app/board/o9J_kkqqHXk=/)
+- [Mapa de Levels de Test Enginee](https://medium.com/stonetech/mapa-de-levels-de-test-engineer-da9c46ff59b7)
+- [Jornada do QA](https://miro.com/app/board/uXjVOPexQIA=/?moveToWidget=3458764522554436125&cot=14)
 
 ## Newsletter
 
