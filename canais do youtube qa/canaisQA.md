@@ -17,3 +17,7 @@
 - [IterasysBrasil](https://www.youtube.com/@IterasysBrasil)
 - [Thetips4you](https://www.youtube.com/@Thetips4you)
 - [ChronosAcademyBR](https://www.youtube.com/c/ChronosAcademyBR)
+- [Pessonizando](https://www.youtube.com/@pessonizando)
+- [Priscilacaimi](https://www.youtube.com/@priscilacaimi)
+- [Cafe testes e pao de queijo](https://www.youtube.com/@cafetestesepaodequeijo1860)
+- [testandosuave](https://www.youtube.com/@testandosuave)
