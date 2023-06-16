@@ -1,4 +1,4 @@
-# Sites para QA
+## Sites para QA
 
 ## Roadmap
 
@@ -133,3 +133,4 @@
 - [Observatory Mozilla](https://observatory.mozilla.org/)
 - [Ferramenta de análise estática para acessibilidade](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter)
 - [xdecision](http://juliodelima.com.br/xdecision/pt)
+- [Obsidian](https://obsidian.md/)
