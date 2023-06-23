@@ -135,3 +135,4 @@
 - [xdecision](http://juliodelima.com.br/xdecision/pt)
 - [Obsidian](https://obsidian.md/)
 - [FIG](https://fig.io/)
+- [Vysor](https://www.vysor.io/download/)
