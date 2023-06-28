@@ -43,6 +43,7 @@
 - [VTestCorp](https://www.vtestcorp.com/category/blog/)
 - [talkingabouttesting](https://talkingabouttesting.com/)
 - [Medium May Fernandes](https://medium.com/@mayfernandes)
+- [softwareqatest](http://www.softwareqatest.com/)
 
 ## Cursos free
 
