@@ -77,6 +77,9 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 - Entrevistas QA
   - [Perguntas](./entrevistas/perguntas//perguntas.md)
   - [Dicas de como enviar um bom desafio técnico](./entrevistas/desafio%20t%C3%A9cnico/desafio_tecnico.md)
+- FAQ
+  - [Mobile](./faq/mobile/mobilefaq.md)
+  - [Web](./faq//web/webfaq.md)
 
 ## Solicitações de inclusão
 
