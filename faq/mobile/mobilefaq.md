@@ -22,3 +22,6 @@ Ajudar na obtenção do package e activity para conectar o framework de teste co
     - Por exemplo, se o pacote do aplicativo for "com.example.app", o comando ficaria assim:  `adb shell dumpsys package com.example.app | grep -E 'Activity'`
 6. Analise a saída do comando e procure pela activity que você deseja automatizar. Normalmente, as activities têm nomes como "com.example.app.MainActivity".
 
+Referências
+- [Android Debug Bridge (adb)](https://developer.android.com/tools/adb)
+- [adbshell](https://adbshell.com/commands)
