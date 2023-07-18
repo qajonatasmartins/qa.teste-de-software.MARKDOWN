@@ -64,7 +64,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
   - Teste de interoperabilidade
 - DevOps
 - QaOps
-- [Metodologias ágeis](./métodologias%20ageis/metodologias_intro.md)
+- [Metodos ágeis](./métodologias%20ageis/metodologias_intro.md)
 - [Refêrencias de Qualidade de Software](./refer%C3%AAncias%20de%20qualidade/referencia_de_qualidade.md)
 - Cursos
 - [Livros para QAs do zero ao avançado](./livros%20QA/livros.md)
