@@ -138,3 +138,4 @@
 - [FIG](https://fig.io/)
 - [Vysor](https://www.vysor.io/download/)
 - [gitfluence](https://www.gitfluence.com/)
+- [git-school](https://git-school.github.io/visualizing-git/)
