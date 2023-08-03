@@ -93,6 +93,7 @@
 - [Automação de teste: um guia passo a passo para criar uma estrutura automatizada de teste de UI](https://bethwilsonuk.medium.com/test-automation-a-step-by-step-guide-for-building-an-automated-ui-testing-framework-fd98048c10e7)
 - [Testes Instrumentados: tipos de teste e como são executados.](https://medium.com/android-dev-br/testes-instrumentados-tipos-de-teste-e-como-s%C3%A3o-executados-1f13a8cfe4c4)
 - [bytearcher](https://bytearcher.com/articles/)
+- [Shift left testing - Origem](https://www.drdobbs.com/shift-left-testing/184404768)
 
 ## Informativos
 
