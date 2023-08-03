@@ -1,16 +1,8 @@
 # Teste não funcional
 
-Os testes não funcionais de um sistema avaliam as características de sistemas e de softwares, como usabilidade, eficiência de performance ou segurança. Consulte o padrão [ISO25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) para obter uma classificação das características de qualidade do produto de software. O teste não funcional é o teste de “quão bem” o sistema deve se comportar.
+Os testes não funcionais de um sistema avaliam as características de sistemas e de softwares, como usabilidade, eficiência de performance ou segurança. Consulte o padrão [ISO25010](https://iso25000.com/index.php/en/iso-25000-standards/iso-25010) para obter uma classificação das características de qualidade do produto de software. O teste não funcional é o teste de “quão bem” o sistema deve se comportar. **Sendo que "Adequação funcional" é o teste funcional e as demais 7 caracteristicas são o famoso teste não funcional.**
 
 ![ISO 25010](https://iso25000.com/images/figures/en/iso25010.png)
-
-## Adequação Funcional
-
-Essa característica representa o grau em que um produto ou sistema fornece funções que atendem às necessidades declaradas e implícitas quando usadas em condições especificadas. Essa característica é composta pelas seguintes sub-características:
-
-- **Completude funcional:** Grau em que o conjunto de funções abrange todas as tarefas e objetivos do usuário especificados.
-- **Correção funcional:** Grau em que um produto ou sistema fornece os resultados corretos com o grau de precisão necessário.
-- **Adequação funcional:** Grau em que as funções facilitam a realização de tarefas e objetivos especificados.
 
 ## Eficiência de desempenho
 
