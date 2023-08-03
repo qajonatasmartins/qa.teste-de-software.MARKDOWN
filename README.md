@@ -31,6 +31,10 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
         - Teste de resistência
     - Usabilidade
     - [Segurança](./tipos%20de%20testes/teste%20n%C3%A3o%20funcional/teste%20de%20seguran%C3%A7a/teste_de_seguranca.md)
+    - Compatibilidade
+    - Confiabilidade
+    - Manutenção
+    - Portabilidade
   - Teste relacionado a mudança
 - Testes dinâmicos
 - Testes estáticos
