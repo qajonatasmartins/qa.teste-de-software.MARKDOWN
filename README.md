@@ -9,7 +9,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 - Fundamentos de testes
   - Erro, Defeito e Falha
 - Tipos de testes
-  - Testes funcional
+  - [Testes funcional](./tipos%20de%20testes/teste%20funcional/teste_funcional.md)
     - [Teste de caixa preta](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/caixa_preta.md)
       - [Técnicas Analise de valor limite](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/t%C3%A9cnicas%20de%20caixa%20preta/analise_de_valor_limite.md)
       - [Técnicas Particionamento de equivalência](./tipos%20de%20testes/teste%20funcional/teste%20de%20caixa%20preta/t%C3%A9cnicas%20de%20caixa%20preta/particionamento_de_equivalencia.md)
