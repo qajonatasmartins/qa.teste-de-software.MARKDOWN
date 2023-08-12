@@ -1,14 +1,14 @@
 ## Sites para QA
 
-## Treinamento de automação
+### Treinamento de automação
 
-### API 
+#### API 
 
 - [automationexercise](https://automationexercise.com/api_list)
 - [serverest](https://serverest.dev/#/)
 
 
-### WEB
+#### WEB
 
 - [automationexercise](https://automationexercise.com/)
 - [front.serverest](https://front.serverest.dev/login)
