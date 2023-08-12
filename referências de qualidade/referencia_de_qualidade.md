@@ -99,3 +99,37 @@
  <p align="">
 	<a href="https://www.instagram.com/agilizeicom"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
 </p>
+
+### William Alves Da Silva - QA.Coders
+
+ <p align="">
+	<a href="https://www.linkedin.com/in/william-alves-da-silva-5b777924/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	 <a href="https://www.linkedin.com/company/qa-coders/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	<a href="https://www.youtube.com/channel/UCtz9rV2Ieq5-RF4VcZ4bOkA"><img alt="youtube" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/344/youtube.png"/></a>
+	<a href="https://www.instagram.com/qa.coders/"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
+</p>
+
+### Priscila Caimi (qualitersclub)
+
+ <p align="">
+	<a href="https://www.linkedin.com/in/paraujocaimi/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	<a href="https://www.youtube.com/c/QAPrisciladeAraujo"><img alt="youtube" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/344/youtube.png"/></a>
+	<a href="https://www.instagram.com/priscila.caimi/?hl=pt-br"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
+</p>
+
+### Renata Andrade (Testing with Renata)
+
+ <p align="">
+	<a href="https://www.linkedin.com/in/raptatinha/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	<a href="https://www.youtube.com/@testingwithrenata"><img alt="youtube" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/344/youtube.png"/></a>
+	<a href="https://www.instagram.com/testingwithrenata/?hl=pt-br"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
+</p>
+
+### Conie Menezes
+
+ <p align="">
+	<a href="https://www.linkedin.com/in/coniemenezes/"><img alt="linkedin" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/linkedin.png"/></a>
+	<a href="https://www.youtube.com/c/ConieMenezesBr"><img alt="youtube" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/344/youtube.png"/></a>
+	<a href="https://www.instagram.com/conie.menezes/"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
+	<a href="https://www.instagram.com/girls.testing/"><img alt="instagram" width="10%" style="padding:5px" src="https://img.icons8.com/clouds/100/000000/instagram.png"/></a>
+</p>
