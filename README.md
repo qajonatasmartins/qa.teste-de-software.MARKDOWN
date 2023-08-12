@@ -89,8 +89,62 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 
 ### Como abrir uma solicitação de inclusão de material
 
-1. Clique na aba [Issues]
-2. Clique em [New issue]
-3. Informe o 'Título' da solicitação
-4. Escreva detalhadamente o que necessita
-5. Clique em [Submit new issue]
+Visando um reconhecimento de todas as pessoas que de alguma forma contribuem com o repositório, a solicitação de inclusão deve ser feita via pull request e assim que aprovada seu nome irá aparecer como um contribuidor do projeto, que massa né?
+
+Segue o passo a passo
+
+#### Passo 1: Clone do Projeto
+
+- Neste repositório, clique no botão "Fork" no canto superior direito da página para criar uma cópia do repositório em sua própria conta GitHub.
+- No seu perfil GitHub, navegue até o repositório que você acabou de fazer o fork.
+- Clique no botão "Code" e copie a URL do repositório.
+- Na sua maquina, clone o projeto pelo vscode ou IDE desejada
+
+#### Passo 2: Crie uma Nova Branch
+
+- Certifique-se de estar na branch principal do repositório (geralmente chamada de "main" ou "master").
+```
+git checkout main
+git pull origin main
+```
+- Crie uma nova branch para o seu trabalho. Dê a ela um nome descritivo relacionado à tarefa que você está realizando.
+
+```
+git checkout -b nome-da-sua-branch
+```
+
+#### Passo 3: Faça e Commite Suas Alterações
+
+- Faça as alterações desejadas nos arquivos do projeto. Use os seguintes comandos para adicionar e commitar suas alterações.
+
+```
+git add .
+git commit -m 
+"Descrição curta das suas alterações"
+```
+
+#### Passo 4: Push das Alterações para o Seu Repositório Fork
+
+```
+git push origin nome-da-sua-branch
+```
+
+#### Passo 5: Abra o Pull Request
+
+- Visite o repositório original [clique aqui](https://github.com/qajonatasmartins/qa.teste-de-software.MARKDOWN).
+- Você deve ver um aviso indicando que você fez um novo push na sua branch recentemente. Clique no botão "Compare & pull request".
+- Preencha os detalhes do pull request:
+  - Escreva um título descritivo e uma descrição detalhada das suas alterações.
+  - Se necessário, mencione os problemas (issues) relacionados ao seu pull request usando "#" seguido pelo número do issue.
+- Clique em "Create pull request" para abrir o seu pull request.
+
+#### Passo 6: Discussão e Revisão
+
+- Será avaliado a sua sujestão para analisar se faz sentido a inclusão.
+
+#### Passo 7: Merge do Pull Request
+
+Quando o seu pull request estiver pronto para ser mesclado, um mantenedor do repositório ou colaborador com permissões suficientes irá mesclá-lo.
+Após o merge, sua branch será mesclada à branch principal do repositório e seu nome será mensionado como um contribuidor do projeto.
+
+E pronto! Você concluiu com sucesso o processo de abertura de um pull request no GitHub.
