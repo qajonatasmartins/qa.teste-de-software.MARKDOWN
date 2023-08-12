@@ -4,6 +4,8 @@
 
 - [WebdriverIO](https://webdriver.io)
 - [Maestro](https://github.com/mobile-dev-inc/maestro)
+- [CodeceptJS](https://codecept.io/)
+- [Detox](https://wix.github.io/Detox/)
 
 ## Web
 
@@ -11,6 +13,8 @@
 - [Playwright](https://playwright.dev/)
 - [Cypress](https://www.cypress.io/)
 - [Robotframework](https://robotframework.org/)
+- [CodeceptJS](https://codecept.io/)
+- [Testcafe](https://testcafe.io/)
 
 ## API
 
@@ -20,6 +24,8 @@
 - [Karate](https://karatelabs.github.io/karate/)
 - [Postman](https://www.postman.com/product/tools/)
 - [Robotframework](https://robotframework.org/)
+- [CodeceptJS](https://codecept.io/)
+- [Testcafe](https://testcafe.io/)
 
 ## Regressão visual
 
@@ -39,12 +45,9 @@
 
 - [WebdriverIO](https://webdriver.io/docs/accessibility)
 
-## Unitário
+## Teste unitário/componenete
 
 - [Junit](https://junit.org/junit5/)
-
-## Teste unitário de componenete
-
 - [WebdriverIO](https://webdriver.io/docs/component-testing)
 
 ## Mutação
