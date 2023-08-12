@@ -1,5 +1,21 @@
 ## Sites para QA
 
+## Treinamento de automação
+
+### API 
+
+- [automationexercise](https://automationexercise.com/api_list)
+- [serverest](https://serverest.dev/#/)
+
+
+### WEB
+
+- [automationexercise](https://automationexercise.com/)
+- [front.serverest](https://front.serverest.dev/login)
+- [todomvc](https://todomvc.com/)
+- [automationtesting](https://demo.automationtesting.in/Register.html)
+- [the-internet.herokuapp](https://the-internet.herokuapp.com/)
+
 ## Roadmap
 
 - [Roadmap QA](https://roadmap.sh/qa)
