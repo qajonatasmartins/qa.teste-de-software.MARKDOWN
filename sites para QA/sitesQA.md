@@ -44,6 +44,8 @@
 - [talkingabouttesting](https://talkingabouttesting.com/)
 - [Medium May Fernandes](https://medium.com/@mayfernandes)
 - [softwareqatest](http://www.softwareqatest.com/)
+- [dorothygraham.blogspot](https://dorothygraham.blogspot.com/)
+- [testautomationpatterns](https://testautomationpatterns.org/wiki/index.php/Main_Page)
 
 ## Cursos free
 
