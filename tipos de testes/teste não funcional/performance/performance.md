@@ -1,1 +1,0 @@
-# [Testes de Performance](https://bcr.bstqb.org.br/docs/syllabus_ct_pt_1.0br.pdf)
