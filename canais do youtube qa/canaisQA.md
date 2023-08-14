@@ -21,3 +21,4 @@
 - [Priscilacaimi](https://www.youtube.com/@priscilacaimi)
 - [Cafe testes e pao de queijo](https://www.youtube.com/@cafetestesepaodequeijo1860)
 - [testandosuave](https://www.youtube.com/@testandosuave)
+- [Black Scorpion](https://www.youtube.com/@blackscorpionsoftware)
