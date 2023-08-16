@@ -2,6 +2,7 @@
 
 - [QA Brasil](https://github.com/qa-brasil)
 - [Qawolf](https://github.com/qawolf/qawolf)
+- [qa-studyguide](https://github.com/concretesolutions/qa-studyguide)
 - [Mobile-Security-Framework-MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
 - [Pentest-Bookmarkz](https://github.com/SofianeHamlaoui/Pentest-Bookmarkz)
 - [awesome-pentest](https://github.com/enaqx/awesome-pentest)

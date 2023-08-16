@@ -20,7 +20,7 @@
 
 - [Roadmap QA](https://roadmap.sh/qa)
 - [QARoadMap](https://miro.com/app/board/o9J_kkqqHXk=/)
-- [Mapa de Levels de Test Enginee](https://medium.com/stonetech/mapa-de-levels-de-test-engineer-da9c46ff59b7)
+- [Mapa de Levels de Test Engineer](https://medium.com/stonetech/mapa-de-levels-de-test-engineer-da9c46ff59b7)
 - [Jornada do QA](https://miro.com/app/board/uXjVOPexQIA=/?moveToWidget=3458764522554436125&cot=14)
 
 ## Newsletter
@@ -59,6 +59,7 @@
 - [VTestCorp](https://www.vtestcorp.com/category/blog/)
 - [talkingabouttesting](https://talkingabouttesting.com/)
 - [Medium May Fernandes](https://medium.com/@mayfernandes)
+- [Medium Papito](https://papito.medium.com/)
 - [softwareqatest](http://www.softwareqatest.com/)
 - [dorothygraham.blogspot](https://dorothygraham.blogspot.com/)
 - [testautomationpatterns](https://testautomationpatterns.org/wiki/index.php/Main_Page)
@@ -112,6 +113,8 @@
 - [Testes Instrumentados: tipos de teste e como são executados.](https://medium.com/android-dev-br/testes-instrumentados-tipos-de-teste-e-como-s%C3%A3o-executados-1f13a8cfe4c4)
 - [bytearcher](https://bytearcher.com/articles/)
 - [Shift left testing - Origem](https://www.drdobbs.com/shift-left-testing/184404768)
+- [Welcome QA Engineer](https://www.linkedin.com/pulse/welcome-qa-engineer-reinaldo-mateus-rossetti?utm_source=share&utm_medium=member_android&utm_campaign=share_via)
+- [Certificação CTFL-AT : Um degrau a mais](https://andressakarla.medium.com/certifica%C3%A7%C3%A3o-ctfl-at-um-degrau-a-mais-1712638e08e4)
 
 ## Informativos
 
@@ -119,6 +122,7 @@
 
 ## Interessantes
 
+- [Trilha Quality Assurance](https://low-minnow-5ed.notion.site/Trilha-Quality-Assurance-20ca78a6f0eb416f923dd7be2031399e)
 - [Web Skills](https://andreasbm.github.io/web-skills/?compact)
 - [Ministry of testing](https://www.ministryoftesting.com/)
 - [Test Dev](https://testdev.tools/)
