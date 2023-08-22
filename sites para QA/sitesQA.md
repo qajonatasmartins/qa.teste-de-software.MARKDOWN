@@ -63,6 +63,7 @@
 - [softwareqatest](http://www.softwareqatest.com/)
 - [dorothygraham.blogspot](https://dorothygraham.blogspot.com/)
 - [testautomationpatterns](https://testautomationpatterns.org/wiki/index.php/Main_Page)
+- [Quality Bits](https://qualitybits.tech/)
 
 ## Cursos free
 
@@ -115,6 +116,10 @@
 - [Shift left testing - Origem](https://www.drdobbs.com/shift-left-testing/184404768)
 - [Welcome QA Engineer](https://www.linkedin.com/pulse/welcome-qa-engineer-reinaldo-mateus-rossetti?utm_source=share&utm_medium=member_android&utm_campaign=share_via)
 - [Certificação CTFL-AT : Um degrau a mais](https://andressakarla.medium.com/certifica%C3%A7%C3%A3o-ctfl-at-um-degrau-a-mais-1712638e08e4)
+- [Veja como fiz para obter a CTFL](https://www.linkedin.com/pulse/veja-como-fiz-para-obter-actfl-adriano-driuzzo/)
+- [Como escrever um bug report com clareza](https://www.linkedin.com/pulse/como-escrever-um-bug-report-com-clareza-adriano-driuzzo/)
+- [30 Dias de Teste de API](https://www.linkedin.com/feed/hashtag/?keywords=30daysofapitesting)
+- [30 Dias de Qualidade](https://www.linkedin.com/feed/hashtag/?keywords=30daysofquality)
 
 ## Informativos
 
@@ -162,3 +167,8 @@
 - [Vysor](https://www.vysor.io/download/)
 - [gitfluence](https://www.gitfluence.com/)
 - [git-school](https://git-school.github.io/visualizing-git/)
+
+## Podcast
+- [Quality Bits Podcast](https://qualitybits.tech/podcast/)
+- [Test Guild by Joe Colantonio](https://testguild.com/podcasts/)
+- [Testando na gringa](https://open.spotify.com/show/7HRA5SBta3O6aWPzNDecDt)
