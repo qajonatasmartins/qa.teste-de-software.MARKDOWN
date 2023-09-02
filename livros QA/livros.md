@@ -40,3 +40,4 @@
 | [BDD in Action: Behavior-Driven Development for the whole software lifecycle (English Edition)                           ](https://amzn.to/3I8NwCW) |
 | [Specification by Example: How Successful Teams Deliver the Right Software                                               ](https://amzn.to/3NVCeDd) |
 |[Implantando a Governança de TI: da Estratégia à Gestão de Processos e Serviços](https://amzn.to/3QJ2FPQ)|
+|[Engenharia de Software](https://amzn.to/3El6CCy)|
