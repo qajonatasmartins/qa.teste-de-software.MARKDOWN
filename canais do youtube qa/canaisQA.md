@@ -24,3 +24,7 @@
 - [Priscilacaimi](https://www.youtube.com/@priscilacaimi)
 - [Cafe testes e pao de queijo](https://www.youtube.com/@cafetestesepaodequeijo1860)
 - [testandosuave](https://www.youtube.com/@testandosuave)
+- [Evil Tester](https://www.youtube.com/@EvilTester)
+- [Joe Colantonio](https://www.youtube.com/@JoeColantonio)
+- [AB Testing](https://podcasters.spotify.com/pod/show/abtesting)
+- [The Testing Academy](https://www.youtube.com/@TheTestingAcademy)
