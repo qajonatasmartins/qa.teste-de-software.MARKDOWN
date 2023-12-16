@@ -5,7 +5,6 @@
 | [Craftsmanship limpo: disciplinas, padrões e ética                                                       ](https://amzn.to/3Sx0a3I) |
 | [Jornada ágil de Qualidade                                                                    ](https://amzn.to/3WOTA7S) |
 | [Engenharia de software                                                                                                  ](https://amzn.to/3Gl8UUi) |
-| [Qualidade de Software na Pratica                                                                                        ](https://amzn.to/3vhNO2R) |
 | [Metricas Ágeis: Obtenha Melhores Resultados Em Sua Equipe                                                               ](https://amzn.to/3WvGfBB) |
 | [Base de Conhecimento em Teste de Software                                                                               ](https://amzn.to/3vk1r1h) |
 | [Engenharia de Software Moderna                                                                                          ](https://amzn.to/3GndMYO) |
