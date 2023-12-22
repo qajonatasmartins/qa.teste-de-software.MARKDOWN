@@ -2,6 +2,7 @@
 
 | Nome                                                                                                                     |
 |--------------------------------------------------------------------------------------------------------------------------|
+|[Simplificando Teste de Software](https://amzn.to/3TybcX2)|
 | [Craftsmanship limpo: disciplinas, padrões e ética                                                       ](https://amzn.to/3Sx0a3I) |
 | [Jornada ágil de Qualidade                                                                    ](https://amzn.to/3WOTA7S) |
 | [Engenharia de software                                                                                                  ](https://amzn.to/3Gl8UUi) |
