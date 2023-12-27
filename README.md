@@ -43,6 +43,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
   - Teste de componente
   - Teste de integração
   - Teste de sistema
+- [Mentorias Gratuitas](./mentoriasGratuitas.md)
 - Mobile
   - Emuladores e simuladores
   - Técnicas de teste baseados na experiência
@@ -77,7 +78,7 @@ Projeto com conceitos, dicas, técnicas e outros pontos de teste de software.
 - [Repositórios Úteis para QA](./repositorios%20uteis/repositorios.md)
 - [Canais do Youtube QA](./canais%20do%20youtube%20qa/canaisQA.md)
 - [Frameworks/Ferramentas](./frameworks/introducao_frameworks.md)
-- [Dicas de processos de QA](./dicas%20de%20processos%20de%20QA/QA%20(Processos).png)
+- [Dicas de processos de QA](<./dicas%20de%20processos%20de%20QA/QA%20(Processos).png>)
 - Entrevistas QA
   - [Perguntas](./entrevistas/perguntas//perguntas.md)
   - [Dicas de como enviar um bom desafio técnico](./entrevistas/desafio%20t%C3%A9cnico/desafio_tecnico.md)
@@ -103,10 +104,12 @@ Segue o passo a passo
 #### Passo 2: Crie uma Nova Branch
 
 - Certifique-se de estar na branch principal do repositório (geralmente chamada de "main" ou "master").
+
 ```
 git checkout main
 git pull origin main
 ```
+
 - Crie uma nova branch para o seu trabalho. Dê a ela um nome descritivo relacionado à tarefa que você está realizando.
 
 ```
@@ -119,7 +122,7 @@ git checkout -b nome-da-sua-branch
 
 ```
 git add .
-git commit -m 
+git commit -m
 "Descrição curta das suas alterações"
 ```
 
