@@ -43,6 +43,8 @@
 
 ## Acessibilidade
 
+- [Cypress](https://www.cypress.io/)
+- [Playwright](https://playwright.dev/)
 - [WebdriverIO](https://webdriver.io/docs/accessibility)
 
 ## Teste unitário/componenete
