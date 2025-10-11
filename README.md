@@ -7,6 +7,7 @@ Esta estrutura foi criada baseada no [**QA Roadmap**](https://roadmap.sh/qa) e n
 ## 🎯 Objetivo
 
 Formar profissionais de QA do **iniciante ao avançado** com base em:
+
 - 📚 **Referências técnicas** (ISTQB, ISO, IEEE)
 - 🎓 **Teoria sólida** e fundamentada
 - 📖 **Artigos científicos** e publicações reconhecidas
@@ -15,23 +16,28 @@ Formar profissionais de QA do **iniciante ao avançado** com base em:
 ## 🗂️ Estrutura de Níveis
 
 ### 🌱 **01-INICIANTE** - Fundamentos Sólidos
+
 Bases essenciais para iniciar na área de QA
 
 ### 🚀 **02-INTERMEDIARIO** - Especialização Técnica
+
 Aprofundamento em técnicas e ferramentas
 
 ### 🎓 **03-AVANCADO** - Liderança e Arquitetura
+
 Especialização em arquitetura, liderança e estratégia
 
 ### 📚 **04-RECURSOS** - Materiais de Referência
+
 Biblioteca completa de recursos técnicos
 
 ### 🎯 **05-ESPECIALIDADES** - Áreas Emergentes
+
 Especialidades para o futuro da qualidade
 
 ## 🎯 **Trilha de Aprendizado Recomendada**
 
-```
+``` text
 01-INICIANTE (Fundamentos) 
      ↓
 02-INTERMEDIARIO (Especialização)
@@ -46,6 +52,7 @@ Especialidades para o futuro da qualidade
 ## 📈 **Metodologia de Ensino**
 
 ### Baseada em Evidências
+
 - ✅ **ISTQB Foundation/Advanced/Expert** - Certificações reconhecidas
 - ✅ **ISO 25010** - Modelo de qualidade de software
 - ✅ **IEEE Standards** - Padrões internacionais
@@ -53,6 +60,7 @@ Especialidades para o futuro da qualidade
 - ✅ **Industry Best Practices** - Melhores práticas
 
 ### Progressão Estruturada
+
 1. **Teoria** → Conceitos fundamentais
 2. **Prática** → Aplicação hands-on  
 3. **Especialização** → Áreas específicas
@@ -62,6 +70,7 @@ Especialidades para o futuro da qualidade
 ## 🔄 **Processo de Atualização**
 
 ### Critérios para Conteúdo
+
 - 📚 **Referência técnica obrigatória**
 - 🎓 **Base teórica sólida**
 - 👥 **Validação por especialistas**
@@ -69,6 +78,7 @@ Especialidades para o futuro da qualidade
 - 🌍 **Padrões internacionais**
 
 ### Fontes Autorizadas
+
 - **ISTQB** - International Software Testing Qualifications Board
 - **ISO/IEC** - International Organization for Standardization  
 - **IEEE** - Institute of Electrical and Electronics Engineers
@@ -83,9 +93,11 @@ Especialidades para o futuro da qualidade
 ### 🌱 **01-INICIANTE - Fundamentos**
 
 #### **Fundamentos de Testes**
+
 - [📖 Introdução ao QA](01-INICIANTE/01-fundamentos-de-testes/introducao-ao-qa.md)
 
 ##### **Conceitos Básicos**
+
 - [🔍 Cenário vs Caso de Teste](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/cenario-x-caso-de-teste.md)
 - [🔄 Ciclo de Vida do Desenvolvimento de Software](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/ciclo-de-vida-desenvolvimento-software.md)
 - [💰 Custo de Defeitos - Regra 10 de Myers](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/custo-de-defeitos.md)
@@ -97,6 +109,7 @@ Especialidades para o futuro da qualidade
 - [✅ Verificação vs Validação](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/verificacao-vs-validacao.md)
 
 ##### **Níveis de Teste**
+
 - [🧪 Teste de Unidade](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20componente/teste-de-unidade.md)
 - [🔗 Teste de Integração](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20integração/teste-de-integracao.md)
 - [🖥️ Teste de Sistema](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20sistema/teste-de-sistema.md)
@@ -109,14 +122,17 @@ Especialidades para o futuro da qualidade
 #### **Tipos Básicos de Teste**
 
 ##### **Teste Funcional e Não-Funcional**
+
 - [⚙️ Teste Funcional](01-INICIANTE/02-tipos-basicos-de-teste/teste-funcional/teste_funcional.md)
 - [📊 Teste Não-Funcional](01-INICIANTE/02-tipos-basicos-de-teste/teste-nao-funcional/teste_nao_funcional.md)
 
 ##### **Caixa Preta e Branca**
+
 - [⚫ Teste de Caixa Preta](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/teste_caixa_preta.md)
 - [⚪ Teste de Caixa Branca](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20branca/teste_caixa_branca.md)
 
 ##### **Técnicas de Caixa Preta**
+
 - [🔢 Análise de Valor Limite](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/analise_de_valor_limite.md)
 - [🎯 Particionamento de Equivalência](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/particionamento_de_equivalencia.md)
 - [📋 Tabela de Decisão](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/tabela_de_decisao.md)
@@ -124,18 +140,21 @@ Especialidades para o futuro da qualidade
 - [👥 Teste em Pares](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/em_pares.md)
 
 ##### **Testes Estáticos**
+
 - [📄 Análise Estática](01-INICIANTE/02-tipos-basicos-de-teste/tecnicas-teste-estatico/analise-estatica.md)
 - [🔍 Inspeção Formal](01-INICIANTE/02-tipos-basicos-de-teste/tecnicas-teste-estatico/inspecao-formal.md)
 - [👁️ Revisão de Código](01-INICIANTE/02-tipos-basicos-de-teste/tecnicas-teste-estatico/revisao-de-codigo.md)
 - [🚶 Walkthrough](01-INICIANTE/02-tipos-basicos-de-teste/tecnicas-teste-estatico/walkthrough.md)
 
 ##### **Teste Exploratório**
+
 - [🗺️ Introdução ao Teste Exploratório](01-INICIANTE/02-tipos-basicos-de-teste/teste-exploratório/introducao-teste-exploratorio.md)
 - [📜 Charter de Teste](01-INICIANTE/02-tipos-basicos-de-teste/teste-exploratório/charter-de-teste.md)
 - [📝 Documentando Teste Exploratório](01-INICIANTE/02-tipos-basicos-de-teste/teste-exploratório/documenting-exploratory-testing.md)
 - [⏱️ Session-Based Testing](01-INICIANTE/02-tipos-basicos-de-teste/teste-exploratório/session-based-testing.md)
 
 #### **Processo de QA**
+
 - [🐛 Bug Lifecycle](01-INICIANTE/03-processo-de-qa/bug-lifecycle.md)
 - [🎯 Defect Management](01-INICIANTE/03-processo-de-qa/defect-management.md)
 - [📋 Test Planning](01-INICIANTE/03-processo-de-qa/test-planning.md)
@@ -146,6 +165,7 @@ Especialidades para o futuro da qualidade
 - [🔚 Test Closure](01-INICIANTE/03-processo-de-qa/test-closure.md)
 
 #### **Primeiros Passos**
+
 - [💬 Comunicação Efetiva](01-INICIANTE/04-primeiros-passos/comunicacao-efetiva.md)
 - [🤝 Soft Skills para QA](01-INICIANTE/04-primeiros-passos/soft-skills-qa.md)
 - [🧠 Pensamento Crítico](01-INICIANTE/04-primeiros-passos/pensamento-critico.md)
@@ -154,6 +174,7 @@ Especialidades para o futuro da qualidade
 - [❓ FAQ](01-INICIANTE/04-primeiros-passos/faq/faq.md)
 
 ##### **Entrevistas**
+
 - [🎯 Desafio Técnico](01-INICIANTE/04-primeiros-passos/entrevistas/desafio%20técnico/desafio_tecnico.md)
 - [❓ Perguntas de Entrevista](01-INICIANTE/04-primeiros-passos/entrevistas/perguntas/perguntas.md)
 
@@ -162,7 +183,7 @@ Especialidades para o futuro da qualidade
 #### **Técnicas de Teste**
 
 ##### **Heurísticas**
-- [📚 Introdução às Heurísticas](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/01_introducao.md)
+
 - [📊 BAICA](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/baica.md)
 - [🔢 Boundaries](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/boundaries.md)
 - [✨ CHIQUE](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/chique.md)
@@ -205,9 +226,11 @@ Especialidades para o futuro da qualidade
 - [❓ WWWWWHKE](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/wwwwwhke.md)
 
 ##### **Técnicas Baseadas em Experiência**
+
 - [🧠 Baseado em Experiência](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-baseadas-experiencia/baseado_em_experiencia.md)
 
 ##### **Técnicas de Caixa Preta**
+
 - [🔢 Análise de Valor Limite](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/analise_de_valor_limite.md)
 - [🎯 Particionamento de Equivalência](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/particionamento_de_equivalencia.md)
 - [📋 Tabela de Decisão](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/tabela_de_decisao.md)
@@ -215,15 +238,18 @@ Especialidades para o futuro da qualidade
 - [👥 Teste em Pares](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/em_pares.md)
 
 #### **Automação Básica**
+
 - [🛠️ Introdução aos Frameworks](02-INTERMEDIARIO/02-automacao-basica/frameworks-introducao/introducao_frameworks.md)
 - [⚙️ Capabilities](02-INTERMEDIARIO/02-automacao-basica/web-automation/capabilities/capabilities.md)
 
 #### **Testes Especializados**
+
 - [📱 Mobile Testing](02-INTERMEDIARIO/03-testes-especializados/teste-mobile/mobile.md)
 - [🧪 Laboratório de Emuladores](02-INTERMEDIARIO/03-testes-especializados/teste-mobile/emuladores%20e%20simuladores/laboratório/laboratorio.md)
 - [👤 Usabilidade](02-INTERMEDIARIO/03-testes-especializados/teste-usabilidade/usabilidade.md)
 
 #### **Metodologias Ágeis**
+
 - [🏃 Introdução às Metodologias](02-INTERMEDIARIO/04-metodologias-ageis/processos-ageis/metodologias_intro.md)
 - [📊 Métricas](02-INTERMEDIARIO/04-metodologias-ageis/processos-ageis/métricas/metricas.md)
 - [🤝 Reuniões](02-INTERMEDIARIO/04-metodologias-ageis/processos-ageis/reunioes/reunioes.md)
@@ -231,25 +257,30 @@ Especialidades para o futuro da qualidade
 ### 🎓 **03-AVANÇADO - Liderança**
 
 #### **Performance e Segurança**
+
 - [🚀 Performance](03-AVANCADO/03-performance-e-seguranca/testes-performance/performance.md)
 - [🔒 Teste de Segurança](03-AVANCADO/03-performance-e-seguranca/testes-seguranca/teste_de_seguranca.md)
 
 ### 📚 **04-RECURSOS - Materiais**
 
 #### **Livros e Referências**
+
 - [📚 Artigos](04-RECURSOS/01-livros-e-referencias/artigos/artigos.md)
 - [📖 Livros QA](04-RECURSOS/01-livros-e-referencias/livros-qa/livros.md)
 - [⭐ Referências de Qualidade](04-RECURSOS/01-livros-e-referencias/referencias-qualidade/referencia_de_qualidade.md)
 
 #### **Canais e Palestras**
+
 - [📺 Canais do YouTube](04-RECURSOS/03-canais-e-palestras/canais-youtube/canaisQA.md)
 - [🎤 Palestras](04-RECURSOS/03-canais-e-palestras/palestras/palestras.md)
 - [🌐 Sites QA](04-RECURSOS/03-canais-e-palestras/sites-qa/sitesQA.md)
 
 #### **Repositórios Úteis**
+
 - [📁 Repositórios GitHub](04-RECURSOS/04-repositorios-uteis/github-repos/repositorios.md)
 
 #### **FAQ**
+
 - [📱 Mobile FAQ](04-RECURSOS/05-FAQ/mobile/mobilefaq.md)
 
 ---
@@ -272,13 +303,15 @@ Segue o passo a passo
 #### Passo 2: Crie uma Nova Branch
 
 - Certifique-se de estar na branch principal do repositório (geralmente chamada de "main" ou "master").
-```
+
+``` git
 git checkout main
 git pull origin main
 ```
+
 - Crie uma nova branch para o seu trabalho. Dê a ela um nome descritivo relacionado à tarefa que você está realizando.
 
-```
+``` git
 git checkout -b nome-da-sua-branch
 ```
 
@@ -286,7 +319,7 @@ git checkout -b nome-da-sua-branch
 
 - Faça as alterações desejadas nos arquivos do projeto. Use os seguintes comandos para adicionar e commitar suas alterações.
 
-```
+``` git
 git add .
 git commit -m 
 "Descrição curta das suas alterações"
@@ -294,7 +327,7 @@ git commit -m
 
 #### Passo 4: Push das Alterações para o Seu Repositório Fork
 
-```
+``` git
 git push origin nome-da-sua-branch
 ```
 
