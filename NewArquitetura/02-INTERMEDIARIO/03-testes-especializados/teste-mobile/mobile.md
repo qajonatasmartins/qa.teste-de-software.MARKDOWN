@@ -1,1 +1,0 @@
-# [Testes mobile](https://bcr.bstqb.org.br/docs/syllabus_ct_mat_1.0br.pdf)

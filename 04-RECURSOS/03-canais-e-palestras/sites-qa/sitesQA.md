@@ -7,7 +7,6 @@
 - [automationexercise](https://automationexercise.com/api_list)
 - [serverest](https://serverest.dev/#/)
 
-
 #### WEB
 
 - [automationexercise](https://automationexercise.com/)
@@ -169,6 +168,8 @@
 - [git-school](https://git-school.github.io/visualizing-git/)
 
 ## Podcast
+
+- [E ai QA, bugou?](https://open.spotify.com/show/3wn8tlNgJIeMsYoqwtxUHg)
 - [Quality Bits Podcast](https://qualitybits.tech/podcast/)
 - [Test Guild by Joe Colantonio](https://testguild.com/podcasts/)
 - [Testando na gringa](https://open.spotify.com/show/7HRA5SBta3O6aWPzNDecDt)

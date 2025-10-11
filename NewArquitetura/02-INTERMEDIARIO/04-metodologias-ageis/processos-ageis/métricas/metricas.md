@@ -1,2 +1,0 @@
-# Métricas Ágeis
-
