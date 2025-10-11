@@ -1,0 +1,1 @@
+# [Testes em pares](https://bstqb.org.br/b9/doc/syllabus_ctal_ta_3.1.1br.pdf#page=39&zoom=100,53,134)
