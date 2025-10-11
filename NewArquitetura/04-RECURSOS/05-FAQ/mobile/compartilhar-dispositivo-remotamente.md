@@ -1,0 +1,1 @@
+escrever aqui como usar ngrok e o adb para compartilhar o dispositivo de uma pessoa de uma localidade x para outra pessoa na localidade y de outra rede.

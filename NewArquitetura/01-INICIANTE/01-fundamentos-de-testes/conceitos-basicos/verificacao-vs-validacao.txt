@@ -1,0 +1,23 @@
+A verificação e a validação (V&V) constituem um tema abrangente no processo de engenharia de software e são fundamentais para assegurar a qualidade do produto. Ambas representam o conjunto de tarefas que avaliam o software em relação aos requisitos.
+A distinção clássica entre verificação e validação, conforme citada nos materiais, é a seguinte:
+Verificação
+A verificação se refere ao conjunto de tarefas que garantem que o software implemente corretamente uma função específica. O engenheiro de software se pergunta: “Estamos criando o produto corretamente?”.
+No contexto do desenvolvimento de software:
+1. Objetivo: O esforço de verificação concentra-se em garantir que a saída de uma fase de desenvolvimento seja consistente com sua entrada e que o componente funcione conforme projetado.
+2. Atividades Iniciais: O teste de unidade concentra o esforço de verificação na menor unidade de projeto do software – o componente ou módulo de software. O teste de unidade visa garantir que cada componente execute a função ou apresente o comportamento para o qual foi projetado.
+3. Técnicas: O teste estático é uma técnica de verificação focada na revisão (não em testes executáveis).
+Validação
+A validação, por sua vez, refere-se ao conjunto de tarefas que asseguram que o software foi criado e pode ser rastreado segundo os requisitos do cliente. O engenheiro de software se pergunta: “Estamos criando o produto certo?”.
+No contexto do desenvolvimento de software:
+1. Foco nos Requisitos: A validação tenta descobrir erros com foco no nível de requisitos – em aspectos que ficarão imediatamente aparentes para o usuário.
+2. Critérios de Sucesso: A validação é bem-sucedida quando o software funciona de uma maneira que pode ser razoavelmente esperada pelo cliente. Os critérios de aceitação do usuário estabelecidos pelo cliente (geralmente definidos a partir de histórias de usuário ou casos de uso) formam a base para a abordagem do teste de validação.
+3. Onde Ocorre: O teste de validação (também chamado de teste de ordem superior) começa quando o teste de integração termina.
+4. Validação de Requisitos (Fase Inicial): O termo "validação" também é usado na fase de engenharia de requisitos. A validação de requisitos é a etapa que examina a especificação para garantir que todos os requisitos foram declarados de forma não ambígua e que inconsistências, omissões e erros foram detectados e corrigidos. O principal mecanismo para a validação de requisitos é a revisão técnica.
+5. Monitoramento de Requisitos: Em tempo de execução, a validação incremental pode ser suportada pelo monitoramento de requisitos, que estima se o software em evolução atende às metas do usuário, enquanto a verificação em tempo de execução determina se o software atende à sua especificação.
+A Relação entre Verificação e Validação na Estratégia de Teste
+O teste de software é visto como um processo em espiral que se move do teste de unidade (foco em verificação) para os testes de ordem superior, culminando na validação:
+• Teste de Unidade e Integração (Verificação): Foca-se em componentes individuais (teste de unidade) e na construção da arquitetura de software (teste de integração). Esses níveis se concentram na verificação funcional e na incorporação de componentes.
+• Teste de Validação e Sistema (Validação): Foca-se na conformidade com os requisitos. O teste de validação garante que o software satisfaz a todos os requisitos funcionais, comportamentais e de desempenho.
+A aplicação correta de métodos, revisões técnicas eficazes e gerenciamento sólido levam à qualidade, que é confirmada durante o teste. No entanto, é crucial notar que você não pode testar a qualidade; a qualidade deve ser incorporada ao software durante todo o processo de engenharia, e os testes apenas confirmam ou refutam essa qualidade.
+O teste de validação em sistemas orientados a objetos, por exemplo, é predominantemente caixa-preta e se baseia em cenários (casos de uso) para exercitar as ações visíveis e as saídas do sistema reconhecíveis pelo usuário.
+Em resumo, a verificação garante que estamos construindo o produto certo, enquanto a validação garante que estamos construindo o produto corretamente (conforme os requisitos do cliente).
