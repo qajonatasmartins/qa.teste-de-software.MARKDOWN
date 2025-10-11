@@ -9,12 +9,14 @@ As funções são **"o que"** o sistema deve fazer, focando no comportamento obs
 ## 🎯 Características Principais
 
 ### Baseado em Especificações
+
 - ✅ Verifica se o sistema atende aos requisitos funcionais
 - ✅ Foca no comportamento externo (caixa-preta)
 - ✅ Independe da implementação interna
 - ✅ Testa a perspectiva do usuário final
 
 ### Conhecimento Especializado
+
 O projeto e a execução de testes funcionais podem envolver habilidades ou conhecimentos especiais, como:
 - 🏢 Conhecimento específico de um problema de negócios
 - 🎯 Compreensão do papel que o software desempenha
@@ -30,14 +32,16 @@ Os testes funcionais de um sistema avaliam a característica de **Adequação Fu
 
 ## 🔍 Adequação Funcional (ISO 25010)
 
-Essa característica representa o grau em que um produto ou sistema fornece funções que atendem às necessidades declaradas e implícitas quando usadas em condições especificadas. 
+Essa característica representa o grau em que um produto ou sistema fornece funções que atendem às necessidades declaradas e implícitas quando usadas em condições especificadas.
 
-### Sub-características:
+### Sub-características
 
 #### 1. Completude Funcional
+
 **Definição**: Grau em que o conjunto de funções abrange todas as tarefas e objetivos do usuário especificados.
 
-**Exemplo Prático**:
+**Exemplo Prático**
+
 ```
 Sistema de E-commerce deve ter:
 ✅ Cadastro de produtos
@@ -48,9 +52,11 @@ Sistema de E-commerce deve ter:
 ```
 
 #### 2. Correção Funcional
+
 **Definição**: Grau em que um produto ou sistema fornece os resultados corretos com o grau de precisão necessário.
 
 **Exemplo Prático**:
+
 ```
 Calculadora deve:
 ✅ 2 + 3 = 5 (correto)
@@ -61,7 +67,8 @@ Sistema bancário deve:
 ❌ Se debitar R$ 99,99 ou R$ 100,01 = problema de correção
 ```
 
-#### 3. Adequação Funcional  
+#### 3. Adequação Funcional
+
 **Definição**: Grau em que as funções facilitam a realização de tarefas e objetivos especificados.
 
 **Exemplo Prático**:
@@ -78,7 +85,8 @@ Sistema de vendas deve ter:
 ### Exemplo 1: Sistema de Login
 
 **Funcionalidades a testar**:
-```
+
+``` text
 Cenário: Login com credenciais válidas
 Dado que: Usuário cadastrado existe
 Quando: Inserir email e senha corretos
@@ -93,7 +101,8 @@ Então: Sistema deve exibir "Credenciais inválidas"
 ### Exemplo 2: Carrinho de Compras
 
 **Funcionalidades a testar**:
-```
+
+``` text
 Teste: Adicionar produto
 Entrada: Produto ID=123, Quantidade=2
 Resultado Esperado: Carrinho mostra 2 unidades do produto
@@ -110,10 +119,12 @@ Resultado Esperado: Total final = R$ 90,00
 ## 🛠️ Técnicas de Teste Funcional
 
 ### 1. Particionamento de Equivalência
+
 **Conceito**: Divide dados em grupos que devem ter comportamento similar.
 
 **Exemplo**:
-```
+
+``` text
 Campo "Idade" (aceita 18-65 anos):
 • Classe válida: 18 ≤ idade ≤ 65
 • Classe inválida 1: idade < 18  
@@ -123,18 +134,22 @@ Testes: 17 (inválida), 25 (válida), 70 (inválida)
 ```
 
 ### 2. Análise de Valor Limite
+
 **Conceito**: Testa valores nas bordas das classes.
 
 **Exemplo**:
-```
+
+``` text
 Para campo "Idade" (18-65):
 Valores limite: 17, 18, 19, 64, 65, 66
 ```
 
 ### 3. Tabela de Decisão
+
 **Conceito**: Mapeia condições para ações.
 
 **Exemplo - Aprovação de Empréstimo**:
+
 | Renda > R$ 5000 | Score > 600 | Resultado |
 |:----------------:|:-----------:|:---------:|
 | Sim | Sim | Aprovado |
@@ -159,18 +174,22 @@ Valores limite: 17, 18, 19, 64, 65, 66
 ## 🔗 Tipos de Teste Funcional por Nível
 
 ### Teste de Unidade (Funcional)
+
 - Testa funções/métodos individuais
 - **Exemplo**: Testar função `calcularImposto(valor)`
 
-### Teste de Integração (Funcional)  
+### Teste de Integração (Funcional)
+
 - Testa interação entre módulos
 - **Exemplo**: Testar integração Carrinho + Pagamento
 
 ### Teste de Sistema (Funcional)
+
 - Testa o sistema completo
 - **Exemplo**: Testar fluxo completo de compra
 
 ### Teste de Aceite (Funcional)
+
 - Verifica se atende necessidades do usuário
 - **Exemplo**: Cliente valida se sistema atende suas regras de negócio
 
@@ -179,6 +198,7 @@ Valores limite: 17, 18, 19, 64, 65, 66
 Os testes funcionais são essenciais para verificar se o software faz o que deveria fazer. Eles garantem que as funcionalidades atendem aos requisitos especificados e proporcionam a experiência esperada pelo usuário.
 
 ### Pontos-chave para iniciantes:
+
 - ✅ Foque no comportamento externo do sistema
 - ✅ Use os requisitos como base para criar testes
 - ✅ Teste tanto cenários positivos quanto negativos

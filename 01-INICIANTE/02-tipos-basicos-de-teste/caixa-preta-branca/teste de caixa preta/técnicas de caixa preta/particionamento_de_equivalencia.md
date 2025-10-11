@@ -21,10 +21,9 @@ A idéia é dividir um conjunto de condições de testes em grupos ou conjuntos 
 No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 1:** Identificar a variável de entrada, logo ao ler a regra de negócio identificamos que a variável de entrada é "**IDADE**".
-
 > **Passo 2:** Faça uma linha reta e informe o nome da variável de entrada definida, no caso "**IDADE**"
 
-```
+``` text
                               IDADE
             _________________________________________
 
@@ -32,7 +31,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 3:** Faça os riscos para separar variáveis válidas e inválidas.
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
@@ -41,7 +40,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 4:**  Informe os valores das partições. Conforme a regra de negócio, pessoas com 18 anos ou mais podem beber (então é uma partição válida) e pessoas menores que 18 anos não podem beber (então menor que 18).
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
@@ -50,7 +49,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 5:** Crie um teste para cada partição. Como possuímos somente duas partições, então temos somente 2 casos de testes para a **regra de negócio 1**.
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
@@ -71,10 +70,9 @@ ______
 Em uma academia para ser um associado é necessário que a pessoa tenha idade entre 16 a 60 anos de idade.
 
 > **Passo 1:** Identificar a variável de entrada, logo ao ler a regra de negócio identificamos que a variável de entrada é "**IDADE**".
-
 > **Passo 2:** Faça uma linha reta e informe o nome da variável de entrada definida, no caso "**IDADE**"
 
-```
+``` text
                               IDADE
             _________________________________________
 
@@ -82,7 +80,7 @@ Em uma academia para ser um associado é necessário que a pessoa tenha idade en
 
 > **Passo 3:** Faça os riscos para separar variáveis válidas e inválidas.
 
-```
+``` text
                                IDADE
             _____________|________________|_____________
               Inválidas  |    válidas     |  Inválidas  
@@ -92,15 +90,17 @@ Em uma academia para ser um associado é necessário que a pessoa tenha idade en
 > **Passo 4:**  Informe os valores das partições. Conforme a regra de negócio, somente pessoas entre 16 a 60 anos podem ser associados na academia.
 > Logo nossa váriavel válida é >=16 e <=60, inválidas < 16 e >60.
 
-```
+``` text
                                IDADE
             _____________|________________|_____________
               Inválidas  |    válidas     |  Inválidas  
                  <16     | >=16  e  <=60  |     >60  
 
 ```
+
 Ou você pode cria-lá assim:
-```
+
+``` text
                                IDADE
             _____________|________________|_____________
               Inválidas  |    válidas     |  Inválidas  
@@ -109,15 +109,18 @@ Ou você pode cria-lá assim:
 ```
 
 > **Passo 5:** Crie um teste para cada partição. Para a **regra de negócio 2** temos **3 casos de testes**.
-```
+
+``` text
                                IDADE
             _____________|________________|_____________
               Inválidas  |    válidas     |  Inválidas  
                  <16     | >=16  e  <=60  |     >60  
 
 ```
+
 Ou você pode cria-lá assim:
-```
+
+``` text
                                IDADE
             _____________|________________|_____________
               Inválidas  |    válidas     |  Inválidas  
@@ -139,10 +142,9 @@ ____
 O valor dos produtos da loja são sempre maiores que zero e nunca devem ultrapassar R$ 7.000,00.
 
 > **Passo 1:** Identificar a variável de entrada, logo ao ler a regra de negócio identificamos que a variável de entrada é "**VALOR DO PRODUTO**".
-
 > **Passo 2:** Faça uma linha reta e informe o nome da variável de entrada definida, no caso "**VALOR DO PRODUTO**"
 
-```
+``` text
                       VALOR DO PRODUTO
 ____________________________________________________________
 
@@ -150,7 +152,7 @@ ____________________________________________________________
 
 > **Passo 3:** Faça os riscos para separar variáveis válidas e inválidas.
 
-```
+``` text
                             VALOR DO PRODUTO
             _____________|___________________|_____________
               Inválidas  |       válidas     |  Inválidas  
@@ -161,7 +163,7 @@ ____________________________________________________________
 > os valores **válidos** é R$ 0,01 até R$ 7.000,00 e os valores **inválidos** são menores que R$ 0,00 e 
 > R$ 7.000,01 ou mais.
 
-```
+``` text
                         VALOR DO PRODUTO
 __________________|________________________|________________
       Inválidas   |       válidas          |  Inválidas  
@@ -171,7 +173,7 @@ Menor que R$ 0,00 | R$ 0,01 até R$ 7.000,00| R$ 7.000,01 ou maior
 
 > **Passo 5:** Crie um teste para cada partição. Para a **regra de negócio 3** temos **3 casos de testes**.
 
-```
+``` text
                        VALOR DO PRODUTO
 __________________|________________________|________________
       Inválidas   |       válidas          |  Inválidas  

@@ -1,6 +1,6 @@
 # Tabela de decisão
 
-A tabela de decisão é baseada em várias combinações de entrada, consequentimente essas combinações são chamadas de lógica de negócios com base no qual a funcionalidade da aplicação funciona. A tabela de decisão é usada para testar complexas lógicas de negócio. 
+A tabela de decisão é baseada em várias combinações de entrada, consequentimente essas combinações são chamadas de lógica de negócios com base no qual a funcionalidade da aplicação funciona. A tabela de decisão é usada para testar complexas lógicas de negócio.
 
 Tabela de decisão tabém é chamada de **tabela de causa-efeito.**
 
@@ -16,9 +16,7 @@ Tabela de decisão tabém é chamada de **tabela de causa-efeito.**
 | Tipo     | Váriaveis |
 | -------- | --------- |
 | Entradas |           |
-|          |
 | Saídas   |           |
-
 
 ==================================================================
 

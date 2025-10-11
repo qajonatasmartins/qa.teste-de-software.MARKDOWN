@@ -2,20 +2,23 @@
 
 ## 📋 Definição
 
-Os **testes não funcionais** de um sistema avaliam as características de qualidade de sistemas e softwares, como usabilidade, eficiência de performance ou segurança. 
+Os **testes não funcionais** de um sistema avaliam as características de qualidade de sistemas e softwares, como usabilidade, eficiência de performance ou segurança.
 
 O teste não funcional responde à pergunta **"quão bem"** o sistema deve se comportar, enquanto o teste funcional responde **"o que"** o sistema deve fazer.
 
 ## 🎯 Características Principais
 
 ### Foco na Qualidade
+
 - ✅ Avalia **como** o sistema funciona
 - ✅ Mede características de qualidade
 - ✅ Verifica requisitos não funcionais
 - ✅ Testa atributos de qualidade
 
 ### Fundamentação Técnica (ISO 25010)
+
 Segundo a **ISO 25010**, existem 9 características de qualidade de software:
+
 - 1 característica = **Adequação Funcional** (testes funcionais)
 - 8 características = **Testes Não Funcionais**
 
@@ -30,9 +33,11 @@ Essa característica representa o desempenho em relação à quantidade de recur
 ### Sub-características:
 
 #### Comportamento Temporal
+
 **Definição**: Grau em que os tempos de resposta e processamento e as taxas de rendimento atendem aos requisitos.
 
 **Exemplos Práticos**:
+
 ```
 ✅ Site de e-commerce deve carregar em menos de 3 segundos
 ✅ API deve responder em menos de 500ms
@@ -41,9 +46,11 @@ Essa característica representa o desempenho em relação à quantidade de recur
 ```
 
 #### Utilização de Recursos
+
 **Definição**: Grau em que as quantidades e tipos de recursos utilizados atendem aos requisitos.
 
 **Exemplos Práticos**:
+
 ```
 ✅ App mobile deve usar no máximo 100MB de RAM
 ✅ Sistema deve usar no máximo 50% da CPU
@@ -52,9 +59,11 @@ Essa característica representa o desempenho em relação à quantidade de recur
 ```
 
 #### Capacidade
+
 **Definição**: Grau em que os limites máximos de um produto ou parâmetro do sistema atendem aos requisitos.
 
 **Exemplos Práticos**:
+
 ```
 ✅ Sistema deve suportar 10.000 usuários simultâneos
 ✅ Database deve armazenar até 1 milhão de registros
@@ -66,9 +75,10 @@ Essa característica representa o desempenho em relação à quantidade de recur
 
 Grau em que um produto pode trocar informações com outros sistemas e executar suas funções enquanto compartilha o mesmo ambiente.
 
-### Sub-características:
+### Sub-características
 
 #### Coexistência
+
 **Definição**: Grau em que um produto pode executar suas funções eficientemente compartilhando ambiente com outros produtos.
 
 **Exemplos Práticos**:
@@ -80,9 +90,11 @@ Grau em que um produto pode trocar informações com outros sistemas e executar 
 ```
 
 #### Interoperabilidade
+
 **Definição**: Grau em que sistemas podem trocar informações e usar as informações trocadas.
 
 **Exemplos Práticos**:
+
 ```
 ✅ Sistema bancário deve integrar com Pix
 ✅ E-commerce deve integrar com correios
@@ -94,12 +106,14 @@ Grau em que um produto pode trocar informações com outros sistemas e executar 
 
 Grau em que um produto pode ser usado por usuários especificados para atingir objetivos com eficácia, eficiência e satisfação em um contexto de uso especificado.
 
-### Sub-características:
+### Sub-características
 
 #### Reconhecimento de Adequação
+
 **Definição**: Grau em que os usuários podem reconhecer se um produto é apropriado para suas necessidades.
 
 **Exemplos Práticos**:
+
 ```
 ✅ Interface do app deve deixar claro sua função
 ✅ Botões devem ter rótulos claros
@@ -108,9 +122,11 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 ```
 
 #### Aprendizagem
+
 **Definição**: Grau em que usuários conseguem aprender a usar o produto com facilidade.
 
 **Exemplos Práticos**:
+
 ```
 ✅ Tutorial interativo para novos usuários
 ✅ Interface intuitiva que não precisa manual
@@ -119,6 +135,7 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 ```
 
 #### Operabilidade
+
 **Definição**: Grau em que um produto possui atributos que facilitam a operação e o controle.
 
 **Exemplos Práticos**:
@@ -130,9 +147,11 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 ```
 
 #### Proteção contra Erros do Usuário
+
 **Definição**: Grau em que um sistema protege os usuários contra erros.
 
 **Exemplos Práticos**:
+
 ```
 ✅ Confirmação antes de deletar dados importantes
 ✅ Validação de campos em tempo real
@@ -141,6 +160,7 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 ```
 
 #### Estética da Interface
+
 **Definição**: Grau em que uma interface permite uma interação agradável e satisfatória.
 
 **Exemplos Práticos**:
@@ -152,6 +172,7 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 ```
 
 #### Acessibilidade (Inclusivity)
+
 **Definição**: Grau em que um produto pode ser usado por pessoas com diversas características e capacidades.
 
 **Exemplos Práticos**:
@@ -163,6 +184,7 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 ```
 
 #### Engajamento do Usuário (User Engagement)
+
 **Definição**: Grau em que a interface promove o interesse e motivação do usuário.
 
 **Exemplos Práticos**:
@@ -174,6 +196,7 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 ```
 
 #### Assistência ao Usuário (User Assistance)
+
 **Definição**: Grau em que o produto fornece ajuda adequada aos usuários.
 
 **Exemplos Práticos**:
@@ -185,6 +208,7 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 ```
 
 #### Autodescritibilidade (Self-descriptiveness)
+
 **Definição**: Grau em que o produto se explica por si mesmo sem necessidade de documentação externa.
 
 **Exemplos Práticos**:
@@ -199,9 +223,10 @@ Grau em que um produto pode ser usado por usuários especificados para atingir o
 
 Grau em que um sistema executa funções especificadas sob condições especificadas por um período de tempo determinado.
 
-### Sub-características:
+### Sub-características
 
 #### Maturidade
+
 **Definição**: Grau em que um sistema atende às necessidades de confiabilidade em operação normal.
 
 **Exemplos Práticos**:
@@ -213,9 +238,11 @@ Grau em que um sistema executa funções especificadas sob condições especific
 ```
 
 #### Disponibilidade
+
 **Definição**: Grau em que um sistema está operacional e acessível quando necessário.
 
 **Exemplos Práticos**:
+
 ```
 ✅ Site deve estar no ar 24/7
 ✅ Sistema deve ter backup automático
@@ -224,6 +251,7 @@ Grau em que um sistema executa funções especificadas sob condições especific
 ```
 
 #### Tolerância a Falhas
+
 **Definição**: Grau em que um sistema opera conforme planejado, apesar da presença de falhas.
 
 **Exemplos Práticos**:
@@ -235,6 +263,7 @@ Grau em que um sistema executa funções especificadas sob condições especific
 ```
 
 #### Recuperabilidade
+
 **Definição**: Grau em que um produto pode recuperar dados e restabelecer o estado desejado após falha.
 
 **Exemplos Práticos**:
@@ -249,9 +278,10 @@ Grau em que um sistema executa funções especificadas sob condições especific
 
 Grau em que um produto protege informações e dados, garantindo acesso apropriado conforme níveis de autorização.
 
-### Sub-características:
+### Sub-características
 
 #### Confidencialidade
+
 **Definição**: Grau em que dados são acessíveis apenas a quem está autorizado.
 
 **Exemplos Práticos**:
@@ -263,6 +293,7 @@ Grau em que um produto protege informações e dados, garantindo acesso apropria
 ```
 
 #### Integridade
+
 **Definição**: Grau em que um sistema impede acesso ou modificação não autorizada.
 
 **Exemplos Práticos**:
@@ -274,6 +305,7 @@ Grau em que um produto protege informações e dados, garantindo acesso apropria
 ```
 
 #### Não Repúdio
+
 **Definição**: Grau em que ações podem ser comprovadas para que não possam ser negadas.
 
 **Exemplos Práticos**:
@@ -285,6 +317,7 @@ Grau em que um produto protege informações e dados, garantindo acesso apropria
 ```
 
 #### Prestação de Contas
+
 **Definição**: Grau em que ações de uma entidade podem ser rastreadas exclusivamente à entidade.
 
 **Exemplos Práticos**:
@@ -296,6 +329,7 @@ Grau em que um produto protege informações e dados, garantindo acesso apropria
 ```
 
 #### Autenticidade
+
 **Definição**: Grau em que a identidade de um sujeito pode ser comprovada como a reivindicada.
 
 **Exemplos Práticos**:
@@ -310,9 +344,10 @@ Grau em que um produto protege informações e dados, garantindo acesso apropria
 
 Grau de eficácia e eficiência com que um produto pode ser modificado para melhorá-lo, corrigi-lo ou adaptá-lo.
 
-### Sub-características:
+### Sub-características
 
 #### Modularidade
+
 **Definição**: Grau em que um sistema é composto de componentes discretos com impacto mínimo entre si.
 
 **Exemplos Práticos**:
@@ -324,6 +359,7 @@ Grau de eficácia e eficiência com que um produto pode ser modificado para melh
 ```
 
 #### Reutilização
+
 **Definição**: Grau em que um ativo pode ser usado em múltiplos sistemas.
 
 **Exemplos Práticos**:
@@ -335,6 +371,7 @@ Grau de eficácia e eficiência com que um produto pode ser modificado para melh
 ```
 
 #### Analisabilidade
+
 **Definição**: Grau de facilidade para avaliar impacto de mudanças ou diagnosticar problemas.
 
 **Exemplos Práticos**:
@@ -346,6 +383,7 @@ Grau de eficácia e eficiência com que um produto pode ser modificado para melh
 ```
 
 #### Modificabilidade
+
 **Definição**: Grau em que um produto pode ser modificado sem introduzir defeitos.
 
 **Exemplos Práticos**:
@@ -357,6 +395,7 @@ Grau de eficácia e eficiência com que um produto pode ser modificado para melh
 ```
 
 #### Testabilidade
+
 **Definição**: Grau de facilidade para estabelecer critérios de teste e executá-los.
 
 **Exemplos Práticos**:
@@ -372,9 +411,10 @@ Grau de eficácia e eficiência com que um produto pode ser modificado para melh
 
 Grau de eficácia com que um sistema pode ser transferido de um ambiente para outro.
 
-### Sub-características:
+### Sub-características
 
 #### Adaptabilidade
+
 **Definição**: Grau em que um produto pode ser adaptado para diferentes ambientes.
 
 **Exemplos Práticos**:
@@ -386,6 +426,7 @@ Grau de eficácia com que um sistema pode ser transferido de um ambiente para ou
 ```
 
 #### Instalabilidade
+
 **Definição**: Grau de facilidade para instalar/desinstalar em um ambiente especificado.
 
 **Exemplos Práticos**:
@@ -397,6 +438,7 @@ Grau de eficácia com que um sistema pode ser transferido de um ambiente para ou
 ```
 
 #### Substituibilidade
+
 **Definição**: Grau em que um produto pode substituir outro para a mesma finalidade.
 
 **Exemplos Práticos**:
@@ -411,9 +453,10 @@ Grau de eficácia com que um sistema pode ser transferido de um ambiente para ou
 
 Grau em que um produto ou sistema mitiga o risco potencial para o status econômico, vida humana, saúde ou meio ambiente.
 
-### Sub-características:
+### Sub-características
 
 #### Mitigação de Risco Econômico
+
 **Definição**: Grau em que um produto reduz riscos relacionados a perdas financeiras.
 
 **Exemplos Práticos**:
@@ -425,6 +468,7 @@ Grau em que um produto ou sistema mitiga o risco potencial para o status econôm
 ```
 
 #### Mitigação de Risco de Saúde e Segurança
+
 **Definição**: Grau em que um produto reduz riscos à saúde e segurança das pessoas.
 
 **Exemplos Práticos**:
@@ -436,6 +480,7 @@ Grau em que um produto ou sistema mitiga o risco potencial para o status econôm
 ```
 
 #### Mitigação de Risco Ambiental
+
 **Definição**: Grau em que um produto reduz riscos ao meio ambiente.
 
 **Exemplos Práticos**:
@@ -459,7 +504,8 @@ Grau em que um produto ou sistema mitiga o risco potencial para o status econôm
 ## 📝 Exemplos Práticos para Iniciantes
 
 ### Teste de Performance (E-commerce)
-```
+
+``` text
 Objetivo: Verificar tempo de resposta
 Cenário: Black Friday com 50.000 usuários
 Métrica: Página deve carregar em < 3 segundos
@@ -467,7 +513,8 @@ Resultado: Aprovado se atender, reprovado se não
 ```
 
 ### Teste de Usabilidade (App Bancário)
-```
+
+``` text
 Objetivo: Verificar facilidade de uso
 Cenário: Usuário idoso fazendo transferência
 Métrica: Completar transferência em < 5 cliques
@@ -475,7 +522,8 @@ Resultado: Avaliar satisfação e dificuldades
 ```
 
 ### Teste de Segurança (Sistema de Pagamento)
-```
+
+``` text
 Objetivo: Verificar proteção de dados
 Cenário: Tentativa de acesso não autorizado
 Métrica: Dados devem permanecer seguros
@@ -485,16 +533,19 @@ Resultado: Identificar vulnerabilidades
 ## 🛠️ Ferramentas Comuns
 
 ### Performance
+
 - **JMeter**: Teste de carga e performance
 - **LoadRunner**: Teste de performance enterprise
 - **Artillery**: Teste de carga para APIs
 
 ### Segurança
+
 - **OWASP ZAP**: Scanner de vulnerabilidades
 - **Burp Suite**: Teste de segurança web
 - **Nessus**: Scanner de vulnerabilidades
 
 ### Usabilidade
+
 - **Hotjar**: Análise de comportamento do usuário
 - **UserTesting**: Testes com usuários reais
 - **Maze**: Testes de usabilidade
@@ -503,7 +554,8 @@ Resultado: Identificar vulnerabilidades
 
 Os testes não funcionais são fundamentais para garantir a qualidade completa do software. Eles complementam os testes funcionais, assegurando que o sistema não apenas funcione corretamente, mas também com qualidade adequada.
 
-### Pontos-chave para iniciantes:
+### Pontos-chave para iniciantes
+
 - ✅ Testes não funcionais são sobre **qualidade**
 - ✅ São baseados na **ISO 25010** (8 características não funcionais)
 - ✅ Cada característica tem sub-características específicas

@@ -57,7 +57,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 2:** Faça uma linha reta e informe o nome da variável de entrada definida, no caso "**IDADE**"
 
-```
+``` text
                               IDADE
             _________________________________________
 
@@ -65,7 +65,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 3:** Faça os riscos para separar variáveis válidas e inválidas.
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
@@ -73,10 +73,9 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 ```
 
 > **Passo 4:** Identifique os valores da regra de negócio para a técnica de análise de valor limite. Dado a regra de negócio o valor válido é todos os valores de **18** ou mais anos de idade.
-
 > **Passo 5:** Informe os valores válidos no risquinho da partição. No caso o primeiro valor válido é 18 e será esse o valor atribuído no risquinho da tabela de análise de valor limite.
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
@@ -90,7 +89,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 - Valor inferior(abaixo) ao valor válido: 17
 - Valor superior(acima) ao valor válido: 19
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
@@ -101,7 +100,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 6:** Informe os valores abaixo das partições inválidas. No caso o valor "17"
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
@@ -112,7 +111,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 7:** Informe os valores acima das partições válidas. No caso o valor "19"
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
@@ -123,7 +122,7 @@ No Brasil somente pessoas com 18 anos ou mais podem beber.
 
 > **Passo 8:** Crie os casos de testes dos limites e do valor válido da partição.
 
-```
+``` text
                                IDADE
                     _____________|________________
                       Inválidas  |    válidas     
