@@ -21,7 +21,7 @@
    4. Explique sobre a técnica de partição de equivalência?
    5. Explique sobre a técnica de análise de valor limite?
    6. O que é smoke test?
-   7. O que é sanity test? 
+   7. O que é sanity test?
    8. O que é teste unitário, como é feito e porque quem é feito?
    9. O que é testes de integração?
    10. O que é testes de interface do usuário?
@@ -44,11 +44,11 @@
    2. Qual é a importância da automação de testes?
    3. Page Objects (o que é, para que serve, como é estruturado no código)?
    4. Quais frameworks de testes automatizados você conhece? web, mobile e api?
-      1. Exemplo: Selenium, WebDriverIO, robot framework, Protactor, Watir,  Appium, Espresso, XCUITest, etc
+      1. Exemplo: Selenium, WebDriverIO, robot framework, Protactor, Watir, Appium, Espresso, XCUITest, etc
    5. Quais ferramentas de gestão de dependências você já usou? (ex.: Maven, package.json, gemfile)
    6. Ferramentas de gerenciamento? (azure, jira, trello e etc..)
    7. Localizadores de elemento (quais existem, qual é mais performático)?
-   8. Qual biblioteca de assertion vc já usou/usa (qual biblioteca utiliza, exemplos de assertion que utiliza no projeto, como  validar os testes)
+   8. Qual biblioteca de assertion vc já usou/usa (qual biblioteca utiliza, exemplos de assertion que utiliza no projeto, como validar os testes)
    9. O que é o cucumber, para que serve?
    10. O que é Data driven?
    11. Quais ferramentas de controle de versão (ex.: Git, SVN, TFS, etc) você conhece?
@@ -59,10 +59,10 @@
    16. Ferramentas controle mobile (Firebase, Testflight, Crashlytics, Bitrise)
    17. Quais bancos de dados você conhece (ex. Oracle, SQL, Mongo, Dynamo, Postgresql e ect..)?
    18. Fale um pouco sobre testes multi browser/multi devices?
-       1.  Exemplos de situações:
-           1. Quando um determinado elemento demora para aparecer na tela, como tratar?  (Exemplo de resposta: utilizar waits ao invés de esperas fixas (Thread.sleep())
-           2. Como fazer um teste que o cadastro de cliente é único por CPF? (Exemplo de respostas: pode utilizar libs de geração de dados randômicos; pode excluir o registro  logo antes/após o cadastro)
-           3. Como fazer o teste da exclusão de um registro para que ele seja independente dos  outros? (Exemplo de resposta: ter uma query ou chamada que cadastre primeiro o  registro antes de excluí-lo)
+       1. Exemplos de situações:
+          1. Quando um determinado elemento demora para aparecer na tela, como tratar? (Exemplo de resposta: utilizar waits ao invés de esperas fixas (Thread.sleep())
+          2. Como fazer um teste que o cadastro de cliente é único por CPF? (Exemplo de respostas: pode utilizar libs de geração de dados randômicos; pode excluir o registro logo antes/após o cadastro)
+          3. Como fazer o teste da exclusão de um registro para que ele seja independente dos outros? (Exemplo de resposta: ter uma query ou chamada que cadastre primeiro o registro antes de excluí-lo)
 5. Conceitos testes mobile
    1. O que é importante testar em um aplicativo mobile?
    2. Como escolher os dispositivos de teste? (exemplo: verificar quais são os devices mais utilizados através firebase ou outros.)

@@ -5,7 +5,7 @@
       1. **Resultado do nome do projeto:** EM.kanui-test.Cypress
       2. Onde EM é de NOME EMPRESA, kanui é a aplicação, test é a finalidade e Cypress o framework (poderia ser JavaScript também caso optasse)
 2. Crie um arquivo só de padrões de desenvolvimento, por exemplo... Durante o desenvolvimento do projeto de teste existe esse arquivo de CR (Code Review) onde tem as boas práticas de desenvolvimento dos testes.
-   1. Exemplo: 
+   1. Exemplo:
       1. Nomenclatura de métodos de testes
          1. Para métodos que retorna o texto da tela, usar o padrão: getText + NomeDoElemento, sendo assim o resultado seria getTextNameClient()
          2. Para métodos que preencha um campo da tela, usar o padrão setText + NomeCampo, sendo assim o resultado seria setTextNameCompany()
