@@ -105,7 +105,8 @@ Especialidades para o futuro da qualidade
 - [🏗️ Modelos de Processo](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/modelos-de-processo.md)
 - [👤 Papel do QA](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/papel-do-qa.md)
 - [⚖️ Qualidade vs Teste](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/qualidade-vs-teste.md)
-- [🐛 Tipos de Defeitos](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/tipos-de-defeitos.md)
+- [🐛 Tipos de Defeitos - Erro, Defeito e Falha](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/tipos-de-defeitos.md)
+- [⚠️ Severidade vs Criticidade](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/severidade-criticidade.md)
 - [✅ Verificação vs Validação](01-INICIANTE/01-fundamentos-de-testes/conceitos-basicos/verificacao-vs-validacao.md)
 
 ##### **Níveis de Teste**
