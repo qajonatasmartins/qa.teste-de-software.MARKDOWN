@@ -182,6 +182,7 @@ Especialidades para o futuro da qualidade
 
 ##### **Heurísticas**
 
+- [👀 Folha de trapaça](https://s3.eu-west-1.amazonaws.com/matrix.assets/xjhjzb1vzrdncmb4hc3tqg11da2q)
 - [📊 BAICA](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/baica.md)
 - [🔢 Boundaries](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/boundaries.md)
 - [✨ CHIQUE](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/chique.md)
