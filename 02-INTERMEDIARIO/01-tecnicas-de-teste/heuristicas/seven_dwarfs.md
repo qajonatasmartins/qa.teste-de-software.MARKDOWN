@@ -4,19 +4,89 @@
 
 ## O que é a Heurística Seven Dwarfs?
 
-A heurística **Seven Dwarfs** é uma abordagem criada por Cassandra H. Leung que utiliza os sete anões da Branca de Neve como **personas baseadas em estados mentais** para melhorar o design e teste de software. Esta técnica ajuda a criação de personas ao focar nos **estados emocionais e mentais dos usuários** ao invés de dados demográficos tradicionais.
+A heurística **Seven Dwarfs** é uma abordagem criada por **Cassandra H. Leung** (tester, entusiasta de UX, feminista interseccional, e speaker) que propõe uma alternativa às personas tradicionais utilizando os **sete anões da Disney** como **personas baseadas em estados mentais**.
+
+### Conceito Principal
+
+Uma **persona** é um personagem fictício criado para representar um tipo de usuário que pode utilizar um produto ou serviço de maneira semelhante. Tradicionalmente, personas focam em:
+- Demografia (idade, salário, localização)
+- Proficiência técnica
+- Perfil profissional
+
+### Problemas com Personas Tradicionais
+
+Segundo Cassandra H. Leung, as personas tradicionais apresentam diversos problemas:
+
+- **Inutilidade para Testes**: Não são projetadas para testes, fornecendo informações pouco úteis
+- **Informação Vaga**: Apenas sugerem informações potencialmente úteis em vez de declará-las claramente
+- **Foco Demográfico Estreito**: Concentram-se em demografia tradicional, ignorando outros fatores importantes
+- **Generalização Excessiva**: Tentam cobrir muitos grupos diferentes em uma única persona
+- **Complexidade Ignorada**: Pessoas são complexas e não podem ser reduzidas a uma única persona
+
+### A Solução: Dwarf Personas
+
+As **Dwarf Personas** focam nos **estados mentais dos usuários** ao invés de dados demográficos, reconhecendo que:
+- Os usuários são complexos e não podem ser representados por uma única persona
+- Uma pessoa pode incorporar diferentes "anões" em momentos distintos
+- O estado mental influencia mais o comportamento do que a demografia
+
+```
+Insight Crucial: Os 'Dwarf Personas' são uma ferramenta que usa o estado mental do usuário (inspirado nos Sete Anões) para guiar testes. Ao invés de se basear em demografia, o foco está no estado mental do usuário em um dado momento – por exemplo, um usuário com pressa, estressado ou confuso. Essa abordagem garante que os testes cubram casos de borda que o produto pode induzir no usuário.
+```
 
 ### Os Sete Anões como Personas
 
-Cada anão representa um estado mental/emocional diferente que os usuários podem experimentar:
+Cada anão representa um estado mental específico com características, prioridades e potenciais impactos bem definidos:
 
-- **Grumpy (Rabugento)** - Usuários frustrados ou irritados
-- **Happy (Feliz)** - Usuários satisfeitos e positivos  
-- **Sleepy (Sonolento)** - Usuários cansados ou com baixa energia
-- **Bashful (Dengoso)** - Usuários tímidos ou inseguros
-- **Sneezy (Espirrador)** - Usuários distraídos ou com problemas técnicos
-- **Dopey (Dunga)** - Usuários iniciantes ou confusos
-- **Doc (Doutor)** - Usuários experientes e analíticos
+#### **Happy (O Temporário)**
+- **Estado Mental**: Contente, mente aberta, perdoador
+- **Comportamento**: Disposto a ignorar pequenas falhas, sem grandes expectativas
+- **Prioridade**: Bom design, divertido de usar
+- **Risco**: Baixo, a menos que seja empurrado para um estado mental diferente
+- **Observação**: O humor pode mudar a qualquer momento
+
+#### **Doc (O Exigente)**
+- **Estado Mental**: Suspeito, difícil de impressionar, facilmente desinteressado
+- **Comportamento**: Orientado a detalhes, prefere especificidade à ambiguidade
+- **Prioridade**: Informação precisa e claramente apresentada
+- **Risco**: Desconfiança leva à não adoção; confusão pode levar ao abandono
+- **Exemplo de Impacto**: Desiste de usar e-mail seguro por falta de clareza
+
+#### **Sneezy (O Distraído)**
+- **Estado Mental**: Esquecido, errático, pouca atenção
+- **Comportamento**: Multitarefa, não gosta de fluxos longos ou complicados
+- **Prioridade**: Fluxo de trabalho rápido e simples; tempo suficiente para completar tarefas
+- **Risco**: Reserva incompleta, erro na reserva, esgotamento do tempo da sessão
+- **Exemplo de Impacto**: Viagem arruinada por reserva incompleta
+
+#### **Dopey (O Confuso)**
+- **Estado Mental**: Inseguro/sobrecarregado
+- **Comportamento**: Busca conforto em padrões familiares e guias, propenso a erros
+- **Prioridade**: Instruções claras e mensagens de aviso
+- **Risco**: Ação errada (cliente cobrado demais), reclamações do cliente
+- **Exemplo de Impacto**: Emprego em risco por erros no sistema
+
+#### **Sleepy (O Exausto)**
+- **Estado Mental**: Mental ou fisicamente exausto
+- **Comportamento**: Estressado, alta carga cognitiva, impaciente, baixa tolerância a problemas
+- **Prioridade**: Funcionalidades autoexplicativas
+- **Risco**: Fusos horários incertos, compromissos salvos no fuso errado
+- **Exemplo de Impacto**: Reuniões perdidas, perda de trabalho/reputação
+
+#### **Bashful (O Ansioso)**
+- **Estado Mental**: Tímido, reservado, nervoso
+- **Comportamento**: Preocupado em cometer erros, às vezes evita agir "por precaução"
+- **Prioridade**: Localização (idioma nativo), gráficos úteis
+- **Risco**: Informações mal traduzidas, blocos de texto como imagens
+- **Exemplo de Impacto**: Pagamento incorreto de impostos por tradução ruim
+
+#### **Grumpy (O Raivoso)**
+- **Estado Mental**: Impaciente, irritado, frustrado
+- **Comportamento**: Propenso a "rage clicking" e abandono após má experiência, resistente a mudanças
+- **Prioridade**: Confiabilidade
+- **Risco**: Aplicativo trava (perda de dados), longos tempos de processamento
+- **Exemplo de Impacto**: Frustração, tempo perdido, abandono do produto
+- **Observação**: Também pode ser visto como "O Insatisfeito" (Bad Actor / Ameaça de Segurança)
 
 ## Como Aplicar a Heurística
 
@@ -338,47 +408,62 @@ Use este prompt como guia para aplicar a heurística Seven Dwarfs em seus testes
 
 Para cada anão, identifique:
 
-### 👿 GRUMPY (Usuário Frustrado/Impaciente)
-**Contexto:** Usuário sob pressão, com pouco tempo, já teve experiências ruins
-**Cenário de teste:** _[Descreva uma situação onde o usuário está impaciente]_
-**Comportamentos esperados:** _[Como esse usuário agiria no sistema?]_
-**Pontos de falha:** _[Onde o sistema pode falhar para esse usuário?]_
+### 😊 HAPPY (O Temporário)
+**Estado Mental:** Contente, mente aberta, perdoador
+**Comportamento:** Disposto a ignorar pequenas falhas, sem grandes expectativas
+**Prioridade:** Bom design, divertido de usar
+**Cenário de teste:** _[Situação onde usuário está explorando com humor positivo]_
+**Risco/Falha:** _[Como o sistema pode empurrá-lo para outro estado mental?]_
+**Observação:** O humor pode mudar a qualquer momento
 
-### 😊 HAPPY (Usuário Satisfeito/Explorador)
-**Contexto:** Usuário motivado, com tempo, disposto a explorar
-**Cenário de teste:** _[Descreva uma situação onde o usuário está explorando]_
-**Comportamentos esperados:** _[Como esse usuário agiria no sistema?]_
-**Pontos de falha:** _[Onde o sistema pode falhar para esse usuário?]_
+### 🧑‍⚕️ DOC (O Exigente)
+**Estado Mental:** Suspeito, difícil de impressionar, facilmente desinteressado
+**Comportamento:** Orientado a detalhes, prefere especificidade à ambiguidade
+**Prioridade:** Informação precisa e claramente apresentada
+**Cenário de teste:** _[Situação onde usuário analisa detalhes do sistema]_
+**Risco/Falha:** Desconfiança leva à não adoção; confusão pode levar ao abandono
+**Exemplo:** Desiste de usar e-mail seguro por falta de clareza
 
-### 😴 SLEEPY (Usuário Cansado/Baixa Energia)
-**Contexto:** Usuário com baixa energia mental, quer simplicidade
-**Cenário de teste:** _[Descreva uma situação onde o usuário está cansado]_
-**Comportamentos esperados:** _[Como esse usuário agiria no sistema?]_
-**Pontos de falha:** _[Onde o sistema pode falhar para esse usuário?]_
+### 🤧 SNEEZY (O Distraído)
+**Estado Mental:** Esquecido, errático, pouca atenção
+**Comportamento:** Multitarefa, não gosta de fluxos longos ou complicados
+**Prioridade:** Fluxo rápido e simples; tempo suficiente para completar tarefas
+**Cenário de teste:** _[Situação de multitasking ou interrupções constantes]_
+**Risco/Falha:** Reserva incompleta, erro na reserva, esgotamento do tempo da sessão
+**Exemplo:** Viagem arruinada por reserva incompleta
 
-### 😳 BASHFUL (Usuário Tímido/Inseguro)
-**Contexto:** Usuário preocupado com privacidade, inseguro sobre o sistema
-**Cenário de teste:** _[Descreva uma situação onde o usuário está inseguro]_
-**Comportamentos esperados:** _[Como esse usuário agiria no sistema?]_
-**Pontos de falha:** _[Onde o sistema pode falhar para esse usuário?]_
+### 🤔 DOPEY (O Confuso)
+**Estado Mental:** Inseguro/sobrecarregado
+**Comportamento:** Busca conforto em padrões familiares e guias, propenso a erros
+**Prioridade:** Instruções claras e mensagens de aviso
+**Cenário de teste:** _[Situação de primeiro uso ou complexidade elevada]_
+**Risco/Falha:** Ação errada (cliente cobrado demais), reclamações do cliente
+**Exemplo:** Emprego em risco por erros no sistema
 
-### 🤧 SNEEZY (Usuário Distraído/Interrompido)
-**Contexto:** Usuário multitasking, facilmente interrompido
-**Cenário de teste:** _[Descreva uma situação onde o usuário está distraído]_
-**Comportamentos esperados:** _[Como esse usuário agiria no sistema?]_
-**Pontos de falha:** _[Onde o sistema pode falhar para esse usuário?]_
+### 😴 SLEEPY (O Exausto)
+**Estado Mental:** Mental ou fisicamente exausto
+**Comportamento:** Estressado, alta carga cognitiva, impaciente, baixa tolerância a problemas
+**Prioridade:** Funcionalidades autoexplicativas
+**Cenário de teste:** _[Situação de uso em horários extremos ou sob estresse]_
+**Risco/Falha:** Fusos horários incertos, compromissos salvos no fuso errado
+**Exemplo:** Reuniões perdidas, perda de trabalho/reputação
 
-### 🤔 DOPEY (Usuário Inexperiente/Confuso)
-**Contexto:** Usuário novo no sistema, não familiar com tecnologia
-**Cenário de teste:** _[Descreva uma situação onde o usuário é inexperiente]_
-**Comportamentos esperados:** _[Como esse usuário agiria no sistema?]_
-**Pontos de falha:** _[Onde o sistema pode falhar para esse usuário?]_
+### 😳 BASHFUL (O Ansioso)
+**Estado Mental:** Tímido, reservado, nervoso
+**Comportamento:** Preocupado em cometer erros, às vezes evita agir "por precaução"
+**Prioridade:** Localização (idioma nativo), gráficos úteis
+**Cenário de teste:** _[Situação onde usuário tem medo de errar ou expor dados]_
+**Risco/Falha:** Informações mal traduzidas, blocos de texto como imagens
+**Exemplo:** Pagamento incorreto de impostos por tradução ruim
 
-### 🧑‍⚕️ DOC (Usuário Experiente/Analítico)
-**Contexto:** Usuário avançado, quer controle total e informações detalhadas
-**Cenário de teste:** _[Descreva uma situação onde o usuário é experiente]_
-**Comportamentos esperados:** _[Como esse usuário agiria no sistema?]_
-**Pontos de falha:** _[Onde o sistema pode falhar para esse usuário?]_
+### 👿 GRUMPY (O Raivoso)
+**Estado Mental:** Impaciente, irritado, frustrado
+**Comportamento:** Propenso a "rage clicking" e abandono, resistente a mudanças
+**Prioridade:** Confiabilidade
+**Cenário de teste:** _[Situação de pressão, falhas anteriores, ou stress]_
+**Risco/Falha:** Aplicativo trava (perda de dados), longos tempos de processamento
+**Exemplo:** Frustração, tempo perdido, abandono do produto
+**Observação:** Pode ser "O Insatisfeito" (Bad Actor / Ameaça de Segurança)
 
 ## 2. CASOS DE TESTE POR PERSONA
 
@@ -500,10 +585,61 @@ Para cada persona, defina métricas mensuráveis:
 3. **Combine com outras técnicas** como boundary testing e equivalence partitioning
 4. **Documente descobertas** sobre exclusão/inclusão para compartilhar com UX
 5. **Itere regularmente** - estados mentais e contextos mudam
+6. **Reconheça a complexidade** - uma pessoa pode ser todos os anões em momentos diferentes
+7. **Foque em casos de estresse** - as situações são baseadas em casos reais de estresse
+8. **Teste também para usuários indesejados** - considere atores mal-intencionados (Grumpy como Bad Actor)
+
+### Pessoas vs Roles vs Personas
+
+É fundamental entender as diferenças:
+
+| Característica | Papéis (Roles) | Personas Tradicionais | Dwarf Personas |
+| :--- | :--- | :--- | :--- |
+| **Foco** | Usuários em relação ao software; permissões (Ex.: admin, líder) | Demografia, profissão, ambiente | Estados mentais e comportamentais |
+| **Formato de Uso** | "Como um [papel], eu quero X para que Y." | "Como [persona tradicional] responderia a esta funcionalidade?" | "Como o produto impacta usuários no estado [anão]?" |
+| **Componentes** | Permissões, responsabilidades | Demografia, Proficiência Técnica, Psicografia | Estado Mental, Comportamentos, Situação, Prioridade, Impacto |
+| **Complexidade** | Um usuário pode ter múltiplos papéis | Tenta cobrir tudo em uma persona | Uma pessoa pode ser todos os anões |
+
+### Recomendações da Heurística
+
+O documento original encoraja:
+
+1. **Quebrar o paradigma das demografias tradicionais**
+2. **Basear personas em pessoas reais**, em vez de generalizações
+3. **Realizar testes como se fosse cada persona**
+4. **Pensar em como o produto pode despertar cada estado mental nos usuários**
+5. **Ter personas também para usuários que você NÃO deseja** (atores mal-intencionados)
+
+### Filosofia Central
+
+> **"Não existe maneira 'certa' ou 'errada' - apenas 'ÚTIL' ou 'INÚTIL'"**
+> - Cassandra H. Leung
 
 ## Pergunta-Chave
 
 > **"Como nosso produto atende (ou exclui) usuários em diferentes estados mentais?"**
+
+### Casos de Estresse Inspirados em Situações Reais
+
+As situações de exemplo para estas personas são inspiradas em **casos reais** que a autora vivenciou, sendo consideradas **"casos de estresse"**, mas **não incomuns**. Isso torna a heurística mais realista e prática para testes.
+
+## Informações Adicionais
+
+### Sobre a Autora
+
+**Cassandra H. Leung** se identifica como:
+- Tester
+- Entusiasta de UX (Experiência do Usuário)
+- Feminista interseccional
+- Speaker
+
+### Contexto da Criação
+
+O documento original é uma apresentação intitulada **"(Mis)Using Personas with The Seven Dwarfs"** (Mal/Bom Uso de Personas com os Sete Anões), que explora o conceito de personas de usuário, critica as personas tradicionais e propõe esta abordagem alternativa.
+
+### Licença Criativa
+
+As **Dwarf Personas** são inspiradas, com **licença criativa**, nos anões da Disney, focando nos **estados mentais dos usuários** como alternativa às abordagens tradicionais.
 
 ## Referências
 
