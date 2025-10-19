@@ -4,14 +4,14 @@
 
 ## 📋 Índice
 
-1. [Preparação Inicial](#preparação-inicial)
-2. [Estrutura e Organização do Projeto](#estrutura-e-organização-do-projeto)
-3. [Padrões de Desenvolvimento](#padrões-de-desenvolvimento)
-4. [Arquitetura e Design Patterns](#arquitetura-e-design-patterns)
-5. [Documentação](#documentação)
-6. [Diferenciação e Valor Agregado](#diferenciação-e-valor-agregado)
-7. [Checklist de Entrega](#checklist-de-entrega)
-8. [Erros Comuns a Evitar](#erros-comuns-a-evitar)
+1. [Preparação Inicial](#-preparação-inicial)
+2. [Estrutura e Organização do Projeto](#️-estrutura-e-organização-do-projeto)
+3. [Padrões de Desenvolvimento](#-padrões-de-desenvolvimento)
+4. [Arquitetura e Design Patterns](#️-arquitetura-e-design-patterns)
+5. [Documentação](#-documentação)
+6. [Diferenciação e Valor Agregado](#-diferenciação-e-valor-agregado)
+7. [Checklist de Entrega](#-checklist-de-entrega)
+8. [Erros Comuns a Evitar](#-erros-comuns-a-evitar)
 
 ---
 
@@ -178,13 +178,14 @@ Breve descrição do que foi testado e objetivos.
 - **POM:** Facilita manutenção e reutilização de código
 
 ## 🏗️ Estrutura do Projeto
-```
+
 projeto/
 ├── cypress/
 │   ├── e2e/           # Testes end-to-end
 │   ├── pages/         # Page Objects
 │   ├── fixtures/      # Dados de teste
 │   └── support/       # Comandos customizados
+
 ```
 
 ## 🚀 Como Executar
@@ -408,6 +409,7 @@ const getTextWelcomeMessage = () => { }
 ```
 
 ### 4. Documentação Insuficiente
+
 ```markdown
 # ❌ README básico
 ## Como usar
