@@ -5,7 +5,7 @@
 #### API 
 
 - [automationexercise](https://automationexercise.com/api_list)
-- [serverest](https://serverest.dev/#/)
+- [ServeRest](https://serverest.dev/#/)
 
 #### WEB
 
@@ -14,6 +14,21 @@
 - [todomvc](https://todomvc.com/)
 - [automationtesting](https://demo.automationtesting.in/Register.html)
 - [the-internet.herokuapp](https://the-internet.herokuapp.com/)
+- [Bugbank](https://bugbank.netlify.app/)
+- [Shop QAzando](https://automationpratice.com.br/)
+- [Walkdog](https://walkdog.vercel.app/)
+- [Buger Eats](https://buger-eats.vercel.app/)
+- [Demo QA](https://demoqa.com/)
+- [Yoda App](https://yodapp-testing.vercel.app/)
+- [Orange HRM](https://opensource-demo.orangehrmlive.com/web/index.php/auth/login)
+- [Demo Automation Test](https://demo.automationtesting.in/Index.html)
+- [Sauce Labs](https://www.saucedemo.com/)
+- [Selenium Dev](https://www.selenium.dev/selenium/web/web-form.html)
+- [Trade Sticker](https://trade-sticker-dev.vercel.app/)
+- [Seu Madruga](https://barrigareact.wcaquino.me/login )
+- [Demo Testfire](https://demo.testfire.net/login.jsp)
+- [PHP Travels](https://phptravels.com/)
+- [TicketBox](https://ticketbox-backstopjs-tat.s3.eu-central-1.amazonaws.com/index.html)
 
 ## Roadmap
 
