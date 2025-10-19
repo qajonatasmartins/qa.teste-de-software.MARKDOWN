@@ -85,6 +85,12 @@
 - [testautomationu](https://testautomationu.applitools.com/learningpaths.html)
 - [formacao-quality-assurance-experience](https://www.dio.me/catalog?careerId=22e059a2-e71a-44b2-99ef-8d7fbddd086f)
 - [web security academy](https://portswigger.net/web-security)
+- [Testes no Next.js com Vitest e Playwright - Unitários, Integração e E2E](https://www.youtube.com/watch?v=AuHCcVcmSSM&list=PLbIBj8vQhvm0pgOkQu3YzOfpQLvWRKdAG)
+- [Teste de software em Javascript | Jest e supertest](https://www.youtube.com/playlist?list=PLDqnSpzNKDvm5yyhAxw-e-a8XqDuZZI7D)
+- [Testes de API](https://www.youtube.com/playlist?list=PLPcbeMjzG5_1PxQNm1Ii8VxgbJFHbV0HO)
+- [Testes de performance](https://www.youtube.com/playlist?list=PLPcbeMjzG5_2FH2EQh1KJUXuPNwzKJL02)
+- [4AllTesters - Referências](https://www.youtube.com/playlist?list=PLPcbeMjzG5_0s7eMIOOokQIOQG9LqVYMb)
+
 
 ## Tutoriais/Estudos
 

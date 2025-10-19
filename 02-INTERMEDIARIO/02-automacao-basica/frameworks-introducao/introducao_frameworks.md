@@ -51,6 +51,10 @@
 
 - [Junit](https://junit.org/junit5/)
 - [WebdriverIO](https://webdriver.io/docs/component-testing)
+- [Poku](https://poku.io/)
+- [Jest](https://jestjs.io/)
+- [Vitest](https://vitest.dev/)
+- [Mocha JS](https://mochajs.org/)
 
 ## Mutação
 
