@@ -282,7 +282,13 @@ Especialidades para o futuro da qualidade
 
 - [📱 Mobile FAQ](04-RECURSOS/05-FAQ/mobile/mobilefaq.md)
 
----
+#### **Plano de Carreira**
+
+- [📱 Plano de Carreira (em construção)](04-RECURSOS/08-plano-de-carreira-qa/C.P.%20_%20Quality%20Engineer-20251019114408.md)
+
+### 📚 **05-ESPECIALIDADES**
+
+- [Em construção]()
 
 ## 📝 **Como Contribuir**
 
