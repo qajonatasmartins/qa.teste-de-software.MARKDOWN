@@ -112,10 +112,11 @@ Especialidades para o futuro da qualidade
 - [🔗 Teste de Integração](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20integração/teste-de-integracao.md)
 - [🖥️ Teste de Sistema](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20sistema/teste-de-sistema.md)
 - [✅ Teste de Aceite](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20aceite/teste-de-aceite.md)
-- [🆎 Teste Alfa e Beta](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20aceite/teste-alfa-beta.md)
-- [💨 Teste de Fumaça](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste-de-fumaça.md)
-- [🔙 Teste de Regressão](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste-de-regressao.md)
-- [🧼 Teste de Sanidade](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste-de-sanidade.md)
+- Tipos de testes
+     - [Teste de fumaça](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-fumaça.md)
+     - [Teste de mutação](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-mutaçao.md)
+     - [Teste de regressão, confirmação ou re-teste](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-regressao.md)
+     - [Teste de sanidade](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-sanidade.md)
 
 #### **Tipos Básicos de Teste**
 
