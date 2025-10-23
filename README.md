@@ -132,11 +132,16 @@ Especialidades para o futuro da qualidade
 
 ##### **Técnicas de Caixa Preta**
 
-- [🔢 Análise de Valor Limite](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/analise_de_valor_limite.md)
-- [🎯 Particionamento de Equivalência](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/particionamento_de_equivalencia.md)
-- [📋 Tabela de Decisão](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/tabela_de_decisao.md)
-- [🎲 Adivinhação de Erro](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/advinhacao_erro.md)
-- [👥 Teste em Pares](01-INICIANTE/02-tipos-basicos-de-teste/caixa-preta-branca/teste%20de%20caixa%20preta/técnicas%20de%20caixa%20preta/em_pares.md)
+- [🔢 Análise de Valor Limite](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/analise_de_valor_limite.md)
+- [🎯 Particionamento de Equivalência](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/particionamento_de_equivalencia.md)
+- [📋 Tabela de Decisão](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/tabela_de_decisao.md)
+- [🎲 Adivinhação de Erro](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/advinhacao_erro.md)
+- [👥 Teste em Pares](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/em_pares.md)
+- [👥 Teste Transição de estados](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/transicao_de_estado.md)
+
+##### **Técnicas de Caixa Preta**
+
+- [🧟‍♂️ Mutação](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-branca/mutacao.md)
 
 ##### **Testes Estáticos**
 
