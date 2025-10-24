@@ -113,10 +113,9 @@ Especialidades para o futuro da qualidade
 - [🖥️ Teste de Sistema](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20sistema/teste-de-sistema.md)
 - [✅ Teste de Aceite](01-INICIANTE/01-fundamentos-de-testes/niveis-de-teste/teste%20de%20aceite/teste-de-aceite.md)
 - Tipos de testes
-     - [Teste de fumaça](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-fumaça.md)
-     - [Teste de mutação](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-mutaçao.md)
-     - [Teste de regressão, confirmação ou re-teste](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-regressao.md)
-     - [Teste de sanidade](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-sanidade.md)
+  - [Teste de fumaça](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-fumaça.md)
+  - [Teste de regressão, confirmação ou re-teste](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-regressao.md)
+  - [Teste de sanidade](01-INICIANTE/01-fundamentos-de-testes/tipos-de-testes/teste-de-sanidade.md)
 
 #### **Tipos Básicos de Teste**
 
