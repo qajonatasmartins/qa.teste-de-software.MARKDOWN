@@ -76,7 +76,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
-- **Tipo de teste:** {Automação/Arquitetura}
 - **Heurística:** SACRED ({Pilar Específico})
 - **Problema Atual:**
 * {Descrição do código ruim ou flaky}
@@ -98,7 +97,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 
 ## 1. Estrutura e formatação
 - **Prioridade:** High
-- **Tipo de teste:** Automação
 - **Heurística:** SACRED (State Management)
 - **Problema Atual:**
 * O teste de "Editar Perfil" falha aleatoriamente porque usa o usuário "joao@teste.com", e às vezes outro teste muda a senha desse usuário simultaneamente.
@@ -116,7 +114,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 
 ## 1. Estrutura e formatação
 - **Prioridade:** Critical
-- **Tipo de teste:** Automação
 - **Heurística:** SACRED (Deterministic)
 - **Problema Atual:**
 * O teste usa `sleep(5 segundos)` esperando o modal abrir. Às vezes o modal abre em 6s e o teste quebra.
@@ -134,7 +131,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
-- **Tipo de teste:** Automação/CI
 - **Heurística:** SACRED (Reporting)
 - **Problema Atual:**
 * Quando o teste falha no Jenkins, só temos o log "Element not found", sem saber como estava a tela.

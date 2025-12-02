@@ -92,7 +92,6 @@ Para cada cenário, identifique a **Emoção Dominante** que motivou o teste.
 - **Emoção:** {Emoji da Emoção} {Nome da Emoção}
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {UX/UI/Funcional}
 - **Pré-condições:**
 * {Estado necessário}
 
@@ -114,7 +113,6 @@ Para cada cenário, identifique a **Emoção Dominante** que motivou o teste.
 - **Emoção:** 🧡 Ansiedade
 - **Prioridade:** High
 - **Severidade:** Normal
-- **Tipo de teste:** UX
 - **Pré-condições:**
 * Tela de geração de relatório (processo que leva 10s).
 
@@ -133,7 +131,6 @@ Para cada cenário, identifique a **Emoção Dominante** que motivou o teste.
 - **Emoção:** ❤️ Raiva
 - **Prioridade:** Medium
 - **Severidade:** Minor
-- **Tipo de teste:** Funcional/Stress
 - **Pré-condições:**
 * Formulário preenchido.
 
@@ -151,7 +148,6 @@ Para cada cenário, identifique a **Emoção Dominante** que motivou o teste.
 - **Emoção:** 💚 Nojinho
 - **Prioridade:** Low
 - **Severidade:** Trivial
-- **Tipo de teste:** UI
 - **Pré-condições:**
 * Menu lateral expandido.
 

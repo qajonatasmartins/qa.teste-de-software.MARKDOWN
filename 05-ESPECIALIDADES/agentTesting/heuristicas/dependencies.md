@@ -55,7 +55,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Web/API}
 - **Heurística:** Dependencies ({Tipo: Propagação/Consistência/Restrição})
 - **Pré-condições:**
 * {Estado necessário do Pai}
@@ -79,7 +78,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Web
 - **Heurística:** Dependencies (Restrição + Count Many)
 - **Pré-condições:**
 * Existir a Categoria "Eletrônicos".
@@ -100,7 +98,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Web
 - **Heurística:** Dependencies (Propagação + CRUD Delete)
 - **Pré-condições:**
 * Pedido #100 aberto com Total de R$ 200,00.
@@ -120,7 +117,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** API/Banco de Dados
 - **Heurística:** Dependencies (Consistência)
 - **Pré-condições:**
 * Playlist "Rock 90s" existe (ID 50) e tem 10 músicas vinculadas na tabela `playlist_songs`.

@@ -59,7 +59,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Web/API/Mobile}
 - **Heurística:** Count (Zero/One/Many)
 - **Pré-condições:**
 * {Estado necessário dos dados antes do teste}
@@ -81,7 +80,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** Count (Zero)
 - **Pré-condições:**
 * Usuário logado na loja virtual.
@@ -101,7 +99,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Web
 - **Heurística:** Count (Many)
 - **Pré-condições:**
 * Tela de anexo de documentos aberta.

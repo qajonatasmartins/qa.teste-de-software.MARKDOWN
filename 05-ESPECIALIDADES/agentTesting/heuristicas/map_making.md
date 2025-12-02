@@ -55,7 +55,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {UX/Navegação}
 - **Heurística:** Map Making ({Contexto: Menu/Breadcrumb/Histórico})
 - **Pré-condições:**
 * {Estar na Base definida}
@@ -78,7 +77,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** Map Making (Breadcrumb)
 - **Pré-condições:**
 * Estar na Home (Base).
@@ -99,7 +97,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Low
 - **Severidade:** Minor
-- **Tipo de teste:** Web/UI
 - **Heurística:** Map Making (Modal)
 - **Pré-condições:**
 * Listagem de usuários (Base).
@@ -119,7 +116,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Normal (UX)
-- **Tipo de teste:** Web
 - **Heurística:** Map Making (Histórico)
 - **Pré-condições:**
 * Estar na lista de Pedidos (Base).

@@ -58,7 +58,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Web/API/Stress}
 - **Heurística:** Flood ({Pilar: Repetição/Idempotência/Paralelismo})
 - **Pré-condições:**
 * {Estado inicial dos dados}
@@ -81,7 +80,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Normal
-- **Tipo de teste:** Web (Manual)
 - **Heurística:** Flood (Repetição)
 - **Pré-condições:**
 * Formulário de cadastro preenchido corretamente.
@@ -102,7 +100,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (Prejuízo Financeiro)
-- **Tipo de teste:** API (Automatizado)
 - **Heurística:** Flood (Paralelismo)
 - **Pré-condições:**
 * Cupom "DESC50" válido para apenas 1 uso.
@@ -123,7 +120,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Minor
-- **Tipo de teste:** Web
 - **Heurística:** Flood (Idempotência)
 - **Pré-condições:**
 * Usuário logado na área de relatórios pesados.

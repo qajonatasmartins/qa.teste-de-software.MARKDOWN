@@ -65,7 +65,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Major/Normal}
-- **Tipo de teste:** {Compatibilidade/Performance/UI}
 - **Heurística:** Configurations - {Letra Correspondente}
 - **Configuração Específica:**
 * {Detalhe do ambiente, ex: Navegador em modo Dark, Rede 3G}

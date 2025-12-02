@@ -61,7 +61,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Mobile/Web/Desktop}
 - **Heurística:** Interruptions ({Pilar: Suspensão/Timeout/Off/Processo})
 - **Pré-condições:**
 * {Estado inicial do sistema}
@@ -84,7 +83,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal (UX)
-- **Tipo de teste:** Web
 - **Heurística:** Interruptions (Timeout)
 - **Pré-condições:**
 * Formulário longo parcialmente preenchido.
@@ -105,7 +103,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Mobile
 - **Heurística:** Interruptions (Processo)
 - **Pré-condições:**
 * Upload de vídeo de 50MB em andamento (progresso em 50%).
@@ -125,7 +122,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (Risco de cobrança indevida)
-- **Tipo de teste:** Mobile/Web
 - **Heurística:** Interruptions (Offline)
 - **Pré-condições:**
 * Carrinho cheio, etapa final de pagamento.

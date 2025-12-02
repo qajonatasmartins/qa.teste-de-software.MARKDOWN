@@ -57,7 +57,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Funcional/Web/API}
 - **Heurística:** Goldilocks ({Pequeno/Grande/Certo})
 - **Pré-condições:**
 * {Tela ou estado necessário}
@@ -79,7 +78,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Minor
-- **Tipo de teste:** Web
 - **Heurística:** Goldilocks (Grande - Max+1)
 - **Pré-condições:**
 * Tela de edição de perfil aberta.
@@ -99,7 +97,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Web
 - **Heurística:** Goldilocks (Certo - Min Boundary)
 - **Pré-condições:**
 * Tela de cadastro.
@@ -119,7 +116,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Normal
-- **Tipo de teste:** API
 - **Heurística:** Goldilocks (Pequeno - Zero)
 - **Pré-condições:**
 * Endpoint `POST /api/v1/carrinho/adicionar`.

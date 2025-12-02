@@ -54,7 +54,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Web/API/Sync}
 - **Heurística:** Multi-User ({Pilar: Simultaneidade/Identidade/Multi-Sessão})
 - **Pré-condições:**
 * {Configuração do User A}
@@ -80,7 +79,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (Integridade de Dados)
-- **Tipo de teste:** Web
 - **Heurística:** Multi-User (Simultaneidade)
 - **Pré-condições:**
 * Dois navegadores abertos (Chrome e Firefox) logados com usuários diferentes.
@@ -102,7 +100,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Mobile/Web
 - **Heurística:** Multi-User (Multi-Sessão)
 - **Pré-condições:**
 * Usuário "João" logado no PC e no Celular App.
@@ -123,7 +120,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** Multi-User (Identidade/Conflito)
 - **Pré-condições:**
 * Admin e Editor acessando o CMS.

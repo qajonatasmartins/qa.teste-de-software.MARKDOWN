@@ -62,7 +62,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Web/API/Mobile}
 - **Heurística:** CRUD ({Letra específica})
 - **Pré-condições:**
 * {Estado necessário dos dados antes do teste}
@@ -84,7 +83,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Web
 - **Heurística:** CRUD (Create)
 - **Pré-condições:**
 * Usuário logado como Administrador.
@@ -105,7 +103,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Web
 - **Heurística:** CRUD (Update)
 - **Pré-condições:**
 * Existir o produto "Fone Bluetooth" com preço "150,00".
@@ -126,7 +123,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** API/Banco de Dados
 - **Heurística:** CRUD (Delete)
 - **Pré-condições:**
 * Produto ID 123 existe e está ativo.

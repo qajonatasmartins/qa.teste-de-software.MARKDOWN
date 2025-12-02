@@ -83,7 +83,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {UX/Funcional}
 - **Heurística:** FAILURE ({Letra do pilar principal})
 - **Pré-condições:**
 * {Condição para gerar o erro}
@@ -106,7 +105,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal (UX)
-- **Tipo de teste:** Web
 - **Heurística:** FAILURE (Appropriate/UI)
 - **Pré-condições:**
 * Tentar salvar um formulário forçando um erro de servidor (ex: Mock 500).
@@ -125,7 +123,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Mobile
 - **Heurística:** FAILURE (Recovery)
 - **Pré-condições:**
 * App aberto.
@@ -145,7 +142,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Backend
 - **Heurística:** FAILURE (Log)
 - **Pré-condições:**
 * Acesso à ferramenta de logs (ex: Kibana/Datadog).

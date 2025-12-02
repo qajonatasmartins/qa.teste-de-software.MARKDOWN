@@ -64,7 +64,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Funcional/E2E/Integração}
 - **Heurística:** BAICA - {Letra Correspondente}
 - **Pré-condições:**
 * {Estado necessário do sistema}

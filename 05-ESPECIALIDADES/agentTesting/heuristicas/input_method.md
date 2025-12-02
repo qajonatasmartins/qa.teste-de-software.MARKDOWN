@@ -56,7 +56,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Web/API/Desktop}
 - **Heurística:** Input Method ({Digitação/Colar/Arrastar/API})
 - **Pré-condições:**
 * {Tela ou ferramenta necessária}
@@ -79,7 +78,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** Input Method (Copiar/Colar)
 - **Pré-condições:**
 * Tela de Checkout.
@@ -100,7 +98,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Minor
-- **Tipo de teste:** Web
 - **Heurística:** Input Method (Arrastar/Soltar)
 - **Pré-condições:**
 * Tela de upload de imagem (aceita apenas .JPG).
@@ -120,7 +117,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (Segurança)
-- **Tipo de teste:** API
 - **Heurística:** Input Method (API vs GUI)
 - **Pré-condições:**
 * A interface bloqueia valores negativos no campo `"Preço"`.

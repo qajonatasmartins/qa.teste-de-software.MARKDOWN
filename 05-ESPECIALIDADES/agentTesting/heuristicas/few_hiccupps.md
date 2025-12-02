@@ -1,9 +1,3 @@
-Esta é uma das heurísticas mais poderosas para **Testes Exploratórios** e para situações onde a documentação é escassa ou inexistente. Ela fornece "Oráculos" (fontes da verdade) para determinar se um comportamento é um bug ou uma feature.
-
-Aqui está a **Heurística FEW HICCUPPS** otimizada e estruturada para uso prático.
-
----
-
 # 🧪 Heurística: FEW HICCUPPS (Oráculos de Consistência)
 
 ## 🧠 Persona
@@ -62,7 +56,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Exploratório/Funcional/UX}
 - **Heurística:** FEW HICCUPPS ({Pilar Específico})
 - **Pré-condições:**
 * {Contexto necessário}
@@ -84,7 +77,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Minor
-- **Tipo de teste:** UX
 - **Heurística:** FEW HICCUPPS (Comparable Products)
 - **Pré-condições:**
 * Tela de edição de texto aberta.
@@ -103,7 +95,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Normal
-- **Tipo de teste:** Funcional
 - **Heurística:** FEW HICCUPPS (World)
 - **Pré-condições:**
 * Formulário de cadastro aberto.
@@ -122,7 +113,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Low
 - **Severidade:** Trivial
-- **Tipo de teste:** UI
 - **Heurística:** FEW HICCUPPS (Product)
 - **Pré-condições:**
 * Comparar a "Home Page" com a página de "Fale Conosco".
@@ -141,7 +131,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Segurança
 - **Heurística:** FEW HICCUPPS (Claims)
 - **Pré-condições:**
 * O site diz na landing page: "Seus dados são 100% criptografados".
@@ -155,7 +144,3 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 3. Resultado Esperado (Oráculo)
 - **Consistência com Claims:** Se a empresa afirma que há criptografia, os dados não podem trafegar em texto plano.
 - O payload NÃO DEVE exibir a senha ou dados pessoais legíveis.
-
----
-
-**Gostaria que eu aplicasse o FEW HICCUPPS em um cenário onde você não tem documentação nenhuma (ex: Testar uma tela desconhecida)?**

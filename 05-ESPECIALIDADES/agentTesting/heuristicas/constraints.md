@@ -57,7 +57,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Blocker/Critical/Normal}
-- **Tipo de teste:** {Web/API}
 - **Heurística:** Constraints
 - **Pré-condições:**
 * {O usuário deve estar logado na tela X}
@@ -83,7 +82,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** Constraints (Unicidade)
 - **Pré-condições:**
 * Usuário logado no sistema administrativo.

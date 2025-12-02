@@ -75,7 +75,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Major/Normal/Minor}
-- **Tipo de teste:** {Funcional/UI/UX}
 - **Heurística:** CHIQUE - {Letra Correspondente}
 - **Pré-condições:**
 * {Estado necessário do sistema}

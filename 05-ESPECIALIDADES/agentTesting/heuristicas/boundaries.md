@@ -54,7 +54,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal}
-- **Tipo de teste:** {Funcional/API}
 - **Heurística:** Boundaries - {Min/Max/Edge}
 - **Pré-condições:**
 * {Estado necessário do sistema}

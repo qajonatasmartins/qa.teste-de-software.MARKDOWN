@@ -76,7 +76,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Regressão/Funcional}
 - **Heurística:** RCRCRC ({Pilar Específico})
 - **Pré-condições:**
 * {Contexto da versão ou configuração}
@@ -99,7 +98,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Blocker
-- **Tipo de teste:** Regressão/Web
 - **Heurística:** RCRCRC (Core)
 - **Pré-condições:**
 * Versão candidata instalada em Staging.
@@ -119,7 +117,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** Regressão/Funcional
 - **Heurística:** RCRCRC (Repaired)
 - **Pré-condições:**
 * Bug original: Frete dava erro para CEPs iniciando com "0".
@@ -139,7 +136,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Regressão/Configuração
 - **Heurística:** RCRCRC (Configuration)
 - **Pré-condições:**
 * Feature Flag `NEW_CHECKOUT_V2` configurada como `FALSE` (Desligada).

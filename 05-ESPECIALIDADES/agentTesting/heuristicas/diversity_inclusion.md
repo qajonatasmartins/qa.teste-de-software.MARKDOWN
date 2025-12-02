@@ -58,7 +58,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Web/Mobile/A11y}
 - **Heurística:** D&I ({Acessibilidade/Localização/Identidade})
 - **Pré-condições:**
 * {Configuração necessária do ambiente ou usuário}
@@ -80,7 +79,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (Legal/Compliance)
-- **Tipo de teste:** Web
 - **Heurística:** D&I (Identidade)
 - **Pré-condições:**
 * Acessar formulário de criação de perfil.
@@ -102,7 +100,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** D&I (Identidade)
 - **Pré-condições:**
 * Tela de cadastro aberta.
@@ -123,7 +120,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (A11y Block)
-- **Tipo de teste:** Web/A11y
 - **Heurística:** D&I (Acessibilidade)
 - **Pré-condições:**
 * Produtos no carrinho.

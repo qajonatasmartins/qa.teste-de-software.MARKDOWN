@@ -85,7 +85,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Estratégia/Exploratório}
 - **Heurística:** MCOASTER ({Letra Específica})
 - **Pré-condições:**
 * {Informação necessária sobre o contexto}
@@ -107,7 +106,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (UX)
-- **Tipo de teste:** Exploratório/UX
 - **Heurística:** MCOASTER (Audience)
 - **Pré-condições:**
 * O app é destinado a aposentados (Público 60+).
@@ -127,7 +125,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Block
-- **Tipo de teste:** Integração
 - **Heurística:** MCOASTER (System + Risk)
 - **Pré-condições:**
 * O sistema depende da API do PayPal.
@@ -147,7 +144,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Benchmark/Exploratório
 - **Heurística:** MCOASTER (Competitors)
 - **Pré-condições:**
 * Analisar o fluxo de "Recuperar Senha" do concorrente líder de mercado.

@@ -56,7 +56,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Funcional/UI}
 - **Heurística:** Position ({Início/Meio/Fim})
 - **Pré-condições:**
 * {Conteúdo ou lista pré-existente}
@@ -79,7 +78,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** Position (Início)
 - **Pré-condições:**
 * Campo `"Nome"` preenchido com "Silva".
@@ -99,7 +97,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** Position (Fim)
 - **Pré-condições:**
 * Lista de Favoritos com 3 itens.
@@ -119,7 +116,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Low
 - **Severidade:** Minor
-- **Tipo de teste:** Web (Editor de Texto)
 - **Heurística:** Position (Meio)
 - **Pré-condições:**
 * Área de texto com um parágrafo longo.

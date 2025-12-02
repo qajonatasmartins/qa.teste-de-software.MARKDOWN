@@ -64,7 +64,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {E2E/Integração}
 - **Heurística:** Follow the Data ({Estágio: T/R/I/P})
 - **Pré-condições:**
 * {Dado inicial necessário}
@@ -87,7 +86,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Web
 - **Heurística:** Follow the Data (Integração)
 - **Pré-condições:**
 * Cadastro de cliente contendo caracteres: "João & Maria - Ações S/A (Tête-à-tête)".
@@ -107,7 +105,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical
-- **Tipo de teste:** E2E
 - **Heurística:** Follow the Data (Recuperação)
 - **Pré-condições:**
 * Pedido #500 com status "Pendente" e valor R$ 100,00.
@@ -127,7 +124,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Low
 - **Severidade:** Minor
-- **Tipo de teste:** Web
 - **Heurística:** Follow the Data (Transformação)
 - **Pré-condições:**
 * Texto de 500 caracteres (Lorem Ipsum).

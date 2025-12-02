@@ -77,7 +77,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** {High/Medium/Low}
 - **Severidade:** {Critical/Normal/Minor}
-- **Tipo de teste:** {Integração/Chatbot/API}
 - **Heurística:** PAMMDA ({Letra Específica})
 - **Pré-condições:**
 * {Configuração do canal/bot}
@@ -100,7 +99,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (UX)
-- **Tipo de teste:** Funcional
 - **Heurística:** PAMMDA (Messages)
 - **Pré-condições:**
 * Template de mensagem configurado: "Olá {{name}}, seu protocolo é {{ticket_id}}".
@@ -119,7 +117,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** High
 - **Severidade:** Critical (Blocker)
-- **Tipo de teste:** Chatbot
 - **Heurística:** PAMMDA (Automation)
 - **Pré-condições:**
 * Bot ativo.
@@ -141,7 +138,6 @@ Para cada cenário identificado, gere o texto seguindo **estritamente** este tem
 ## 1. Estrutura e formatação
 - **Prioridade:** Medium
 - **Severidade:** Normal
-- **Tipo de teste:** Funcional/API
 - **Heurística:** PAMMDA (Parameters)
 - **Pré-condições:**
 * Parâmetro do sistema: Bloquear arquivos `.exe`.
