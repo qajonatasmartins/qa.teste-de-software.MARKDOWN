@@ -294,7 +294,8 @@ Especialidades para o futuro da qualidade
 
 ### 📚 **05-ESPECIALIDADES**
 
-- [Em construção]()
+- [Heuristicas de Teste formatadas para IA Agent](05-ESPECIALIDADES/agentTesting/heuristicas/)
+
 
 ## 📝 **Como Contribuir**
 
