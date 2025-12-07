@@ -1,0 +1,506 @@
+[
+    {
+        "id": "baica",
+        "type": "test",
+        "name": "BAICA (Básico, Automação, Interrupção, Criação, Anônimo)",
+        "description": "Garante que o básico não seja esquecido e prepara o terreno para automação e resiliência. Foca em testabilidade e engenharia de qualidade.",
+        "triggers": [
+            "automação",
+            "fluxos longos",
+            "uploads",
+            "processamentos",
+            "refinamento",
+            "planning"
+        ]
+    },
+    {
+        "id": "boundaries",
+        "type": "test",
+        "name": "Boundaries (Análise de Valor Limite)",
+        "description": "Quebra a lógica de validação encontrando erros de fronteira (off-by-one). Testa limites mínimos, máximos e casos especiais.",
+        "triggers": [
+            "valores mínimos e máximos",
+            "limitações de caracteres",
+            "intervalos de datas",
+            "paginação"
+        ]
+    },
+    {
+        "id": "chique",
+        "type": "test",
+        "name": "CHIQUE (Campos, Habilitar/Desabilitar, Interrupção, Quebra, Usabilidade, Estouro)",
+        "description": "Foca na experiência do erro e robustez da interface. Valida usabilidade e fluxos funcionais em situações inesperadas.",
+        "triggers": [
+            "formulários extensos",
+            "fluxos em etapas",
+            "menus complexos",
+            "campos de entrada livre"
+        ]
+    },
+    {
+        "id": "configurations",
+        "type": "test",
+        "name": "Configurations (SETUP: Storage, Environment, Traffic, UI, Peripherals)",
+        "description": "Testa compatibilidade e performance em diferentes configurações de ambiente, rede, armazenamento e dispositivos.",
+        "triggers": [
+            "funcionalidades de hardware",
+            "aplicações responsivas",
+            "sincronização",
+            "globalização"
+        ]
+    },
+    {
+        "id": "constraints",
+        "type": "test",
+        "name": "Constraints (Restrições: Completude, Unicidade, Dependência)",
+        "description": "Valida integridade de dados e regras de negócio testando campos obrigatórios, unicidade e lógica cruzada.",
+        "triggers": [
+            "campos obrigatórios",
+            "identificadores únicos",
+            "lógica condicional",
+            "regras restritivas"
+        ]
+    },
+    {
+        "id": "count",
+        "type": "test",
+        "name": "Count (Zero, Um, Muitos)",
+        "description": "Testa casos de borda e volume focando em extremos quantitativos: ausência, unidade e sobrecarga.",
+        "triggers": [
+            "listagens",
+            "carrinhos",
+            "upload de arquivos",
+            "busca e filtros",
+            "processamento em lote"
+        ]
+    },
+    {
+        "id": "crud",
+        "type": "test",
+        "name": "CRUD (Ciclo de Vida de Dados)",
+        "description": "Valida a persistência correta da informação através do ciclo completo: Create, Read, Update, Delete.",
+        "triggers": [
+            "cadastros",
+            "painéis administrativos",
+            "endpoints RESTful",
+            "gerenciamento de itens"
+        ]
+    },
+    {
+        "id": "dependencies",
+        "type": "test",
+        "name": "Dependencies (Relacionamentos: Propagação, Consistência, Restrição)",
+        "description": "Testa integridade relacional e integração, focando no efeito dominó entre dados pai e filho.",
+        "triggers": [
+            "mestre-detalhe",
+            "hierarquias",
+            "agrupamentos",
+            "fluxos dependentes"
+        ]
+    },
+    {
+        "id": "diversity_inclusion",
+        "type": "test",
+        "name": "Diversity & Inclusion (Acessibilidade, Localização, Identidade)",
+        "description": "Valida acessibilidade e experiência inclusiva, questionando se o sistema foi feito apenas para um perfil padrão.",
+        "triggers": [
+            "formulários de cadastro",
+            "localização",
+            "avatars",
+            "fluxos críticos",
+            "validações de nomes"
+        ]
+    },
+    {
+        "id": "emotions",
+        "type": "test",
+        "name": "Divertidamente (Emotional Testing)",
+        "description": "Testa o sistema sob diferentes estados emocionais do usuário: alegria, tristeza, raiva, medo, nojo, ansiedade, vergonha, tédio e inveja.",
+        "triggers": [
+            "usabilidade",
+            "mensagens de erro",
+            "stress",
+            "performance",
+            "fluxos críticos"
+        ]
+    },
+    {
+        "id": "failure",
+        "type": "test",
+        "name": "FAILURE (Funcional, Apropriado, Impacto, Log, UI, Recuperação, Emoções)",
+        "description": "Valida tratamento de exceções e UX Writing, garantindo que erros sejam tratados com empatia e clareza.",
+        "triggers": [
+            "mensagens de erro",
+            "timeouts",
+            "bloqueios",
+            "validações"
+        ]
+    },
+    {
+        "id": "few_hiccupps",
+        "type": "test",
+        "name": "FEW HICCUPPS (Oráculos de Consistência)",
+        "description": "Valida consistência do sistema contra mundo real, histórico, concorrentes, promessas, expectativas, produto, propósito, padrões e estatutos.",
+        "triggers": [
+            "sem documentação",
+            "testes exploratórios",
+            "qualidade subjetiva"
+        ]
+    },
+    {
+        "id": "flood",
+        "type": "test",
+        "name": "Flood (Inundação & Concorrência: Repetição, Idempotência, Paralelismo)",
+        "description": "Testa stress e segurança através de volume e velocidade, validando comportamento sob ações repetidas e simultâneas.",
+        "triggers": [
+            "botões críticos",
+            "funcionalidades de recursos",
+            "cupons e vouchers",
+            "APIs POST/PUT"
+        ]
+    },
+    {
+        "id": "follow_the_data",
+        "type": "test",
+        "name": "Follow the Data (Transformação, Recuperação, Integração, Persistência)",
+        "description": "Rastreia a viagem do dado através de diferentes estágios para garantir integridade e consistência.",
+        "triggers": [
+            "ciclos de vida completos",
+            "importação e exportação",
+            "dashboards",
+            "sincronização",
+            "conversão de formatos"
+        ]
+    },
+    {
+        "id": "goldilocks",
+        "type": "test",
+        "name": "Goldilocks (Pequeno, Grande, Certo)",
+        "description": "Testa limites e validação de entrada focando nas fronteiras: muito pequeno, muito grande e na medida certa.",
+        "triggers": [
+            "campos de entrada",
+            "campos numéricos",
+            "upload de arquivos",
+            "paginação",
+            "datas"
+        ]
+    },
+    {
+        "id": "input_method",
+        "type": "test",
+        "name": "Input Method (Variação Humana, Importação, Acesso Técnico)",
+        "description": "Testa diferentes métodos de entrada de dados: digitação, colar, arrastar, API, garantindo tratamento uniforme.",
+        "triggers": [
+            "formulários com máscaras",
+            "upload de arquivo",
+            "editores de texto",
+            "validações",
+            "migração de dados"
+        ]
+    },
+    {
+        "id": "interruptions",
+        "type": "test",
+        "name": "Interruptions (Suspensão, Timeout, Offline, Processo)",
+        "description": "Valida resiliência testando comportamento quando o sistema é interrompido bruscamente.",
+        "triggers": [
+            "processos longos",
+            "transações críticas",
+            "formulários extensos",
+            "mobile background"
+        ]
+    },
+    {
+        "id": "map_making",
+        "type": "test",
+        "name": "Map Making (Base, Explorar, Retornar)",
+        "description": "Valida navegação e capacidade de ir e vir, garantindo que o usuário sempre saiba voltar ao ponto inicial.",
+        "triggers": [
+            "estrutura de menus",
+            "breadcrumbs",
+            "modais",
+            "botão voltar",
+            "deep links"
+        ]
+    },
+    {
+        "id": "mcoaster",
+        "type": "review",
+        "name": "MCOASTER (Missão, Concorrentes, Objetos, Audience, Sistema, Testabilidade, Equipamento, Riscos)",
+        "description": "Análise macroscópica do contexto do projeto para criar estratégia de testes baseada em missão, público e riscos.",
+        "triggers": [
+            "início de projetos",
+            "planejamento de sprints",
+            "falta de documentação",
+            "priorização de testes"
+        ]
+    },
+    {
+        "id": "multi_user",
+        "type": "test",
+        "name": "Multi-User (Simultaneidade, Identidade, Multi-Sessão)",
+        "description": "Testa concorrência e sincronização quando múltiplos usuários ou sessões interagem com o mesmo recurso.",
+        "triggers": [
+            "recursos compartilhados",
+            "sistemas de reserva",
+            "múltiplos dispositivos",
+            "tempo real"
+        ]
+    },
+    {
+        "id": "pammda",
+        "type": "test",
+        "name": "PAMMDA (Parameters, API, Manipulation, Messages, Desempenho, Automation)",
+        "description": "Valida integrações de canais e mensageria, testando chatbots, APIs e plataformas de atendimento.",
+        "triggers": [
+            "chatbots",
+            "integrações WhatsApp/Telegram",
+            "notificações",
+            "chat interno"
+        ]
+    },
+    {
+        "id": "position",
+        "type": "test",
+        "name": "Position (Início, Meio, Fim)",
+        "description": "Testa manipulação de dados e UI alterando posição da interação: primeiro, meio e último elemento.",
+        "triggers": [
+            "campos de texto",
+            "listas e grids",
+            "fluxos sequenciais",
+            "ordenação",
+            "paginação"
+        ]
+    },
+    {
+        "id": "rcrcrc",
+        "type": "test",
+        "name": "RCRCRC (Recent, Core, Risky, Configuration, Repaired, Chronic)",
+        "description": "Estratégia de regressão focada em áreas recentes, essenciais, arriscadas, configurações, correções e problemas crônicos.",
+        "triggers": [
+            "teste de regressão",
+            "hotfixes",
+            "análise de impacto",
+            "releases"
+        ]
+    },
+    {
+        "id": "sacred",
+        "type": "review",
+        "name": "SACRED (State, Actions, Codified Oracle, Reporting, Execution, Deterministic)",
+        "description": "Arquitetura de automação focando em gestão de estado, abstração, asserções claras, relatórios, execução e confiabilidade.",
+        "triggers": [
+            "construção de framework",
+            "refatoração de flaky tests",
+            "code review",
+            "CI/CD"
+        ]
+    },
+    {
+        "id": "seen_and_heard",
+        "type": "test",
+        "name": "Seen and Heard (Visto e Ouvido)",
+        "description": "Valida acessibilidade garantindo equivalência sensorial: o que se vê deve ser ouvido e o que se ouve deve ser visto.",
+        "triggers": [
+            "imagens",
+            "vídeos",
+            "áudios",
+            "alterações de estado",
+            "notificações sonoras"
+        ]
+    },
+    {
+        "id": "selection",
+        "type": "test",
+        "name": "Selection (None, Some, All)",
+        "description": "Testa seleção múltipla e ações em massa validando comportamento com nenhum, alguns ou todos os itens selecionados.",
+        "triggers": [
+            "checkboxes múltiplos",
+            "permissões",
+            "ações em massa",
+            "filtros",
+            "carrinhos"
+        ]
+    },
+    {
+        "id": "sequences",
+        "type": "test",
+        "name": "Sequences (Desfazer, Inverter, Simultâneo)",
+        "description": "Testa ordem e temporalidade das ações validando undo/redo, ordem de operações e race conditions.",
+        "triggers": [
+            "histórico",
+            "fluxos financeiros",
+            "wizards",
+            "ações assíncronas"
+        ]
+    },
+    {
+        "id": "seven_dwarfs",
+        "type": "test",
+        "name": "Seven Dwarfs (Grumpy, Sneezy, Dopey, Sleepy, Bashful, Doc, Happy)",
+        "description": "Valida resiliência emocional testando sob sete estados mentais do usuário: raivoso, distraído, confuso, exausto, ansioso, exigente e otimista.",
+        "triggers": [
+            "fluxos críticos",
+            "onboarding",
+            "gestão de erros",
+            "privacidade"
+        ]
+    },
+    {
+        "id": "sorting",
+        "type": "test",
+        "name": "Sorting (Types, Order, Pagination)",
+        "description": "Testa ordenação de dados validando tipos numéricos vs texto, persistência da ordem e escopo global vs local em paginação.",
+        "triggers": [
+            "tabelas ordenáveis",
+            "paginação",
+            "dropdowns de ordenação",
+            "listas mistas"
+        ]
+    },
+    {
+        "id": "specs_designs_watchlist",
+        "type": "review",
+        "name": "Specs/Designs Watchlist (Estados Invisíveis, Inconsistências, Ambiguidade)",
+        "description": "Revisão estática de documentos buscando lacunas, inconsistências entre spec e design, e definições vagas.",
+        "triggers": [
+            "refinement",
+            "planning",
+            "wireframes",
+            "mockups",
+            "design review"
+        ]
+    },
+    {
+        "id": "starvation",
+        "type": "test",
+        "name": "Starvation (CPU, Rede, Armazenamento, Memória)",
+        "description": "Testa comportamento quando recursos estão esgotados: processamento, rede, disco e memória.",
+        "triggers": [
+            "upload/download",
+            "processamento background",
+            "mobile",
+            "transações críticas"
+        ]
+    },
+    {
+        "id": "state_analysis",
+        "type": "test",
+        "name": "State Analysis (State, Event, Transition)",
+        "description": "Valida máquina de estados testando todos os estados possíveis, transições válidas e tentativas de burlar o fluxo.",
+        "triggers": [
+            "ciclo de vida de entidades",
+            "fluxos de aprovação",
+            "máquinas de estado",
+            "regras dependentes de status"
+        ]
+    },
+    {
+        "id": "torch",
+        "type": "review",
+        "name": "TORCH (Timer, Oracles, Risks, Consider, Heuristics)",
+        "description": "Planejamento de sessões de teste exploratório estruturado com timebox, oráculos, riscos e heurísticas específicas.",
+        "triggers": [
+            "novas funcionalidades",
+            "bug bashing",
+            "testes exploratórios",
+            "sprints apertadas"
+        ]
+    },
+    {
+        "id": "touch_points",
+        "type": "test",
+        "name": "TouchPoints (Provocar, Monitorar, Verificar)",
+        "description": "Testes técnicos em múltiplas interfaces: APIs, logs, banco de dados, console, validando estado verdadeiro do sistema.",
+        "triggers": [
+            "UI não pronta",
+            "integrações complexas",
+            "isolamento de bugs",
+            "headless testing"
+        ]
+    },
+    {
+        "id": "tpain",
+        "type": "test",
+        "name": "T-PAIN (Rotação, Permissões, Avião, Interrupções, Conexões)",
+        "description": "Especializado em Android, testa resiliência móvel validando rotação, permissões runtime, modo avião, interrupções e qualidade de rede.",
+        "triggers": [
+            "aplicativos Android",
+            "formulários longos",
+            "recursos de hardware",
+            "chamadas assíncronas"
+        ]
+    },
+    {
+        "id": "trims",
+        "type": "review",
+        "name": "TRIMS (Targeted, Reliable, Informative, Maintainable, Speedy)",
+        "description": "Otimização de automação focando em testes direcionados, confiáveis, informativos, manuteníveis e rápidos.",
+        "triggers": [
+            "CI/CD lento",
+            "flaky tests",
+            "manutenção de testes",
+            "code review de automação"
+        ]
+    },
+    {
+        "id": "tuttu_and_tatta",
+        "type": "review",
+        "name": "TuTTu & TaTTa (Testing THE UI vs Testing THROUGH THE UI)",
+        "description": "Otimização cross-browser: TuTTu (componentes visuais) requer múltiplos navegadores, TaTTa (fluxos de negócio) apenas um.",
+        "triggers": [
+            "planejamento de automação",
+            "refatoração de suíte",
+            "otimização de pipeline",
+            "custos de device farm"
+        ]
+    },
+    {
+        "id": "users_scenarios",
+        "type": "test",
+        "name": "Users & Scenarios (Personas, Locations, Objectives, Twists)",
+        "description": "Cria narrativas de teste incorporando diferentes personas, contextos, objetivos e reviravoltas para simular uso real.",
+        "triggers": [
+            "jornadas de usuário",
+            "acessibilidade",
+            "funcionalidades sociais",
+            "casos de uso complexos"
+        ]
+    },
+    {
+        "id": "vader",
+        "type": "test",
+        "name": "VADER (Verbs, Authorization, Data, Errors, Responsiveness)",
+        "description": "Teste de APIs validando verbos HTTP, autorização, dados de entrada/saída, tratamento de erros e performance.",
+        "triggers": [
+            "APIs RESTful",
+            "integrações",
+            "testes de segurança",
+            "contratos de interface"
+        ]
+    },
+    {
+        "id": "variable_analysis",
+        "type": "test",
+        "name": "Variable Analysis (Obvious, Subtle, Hidden)",
+        "description": "Identifica e manipula variáveis óbvias, sutis e ocultas para quebrar a lógica do sistema.",
+        "triggers": [
+            "algoritmos de cálculo",
+            "formulários complexos",
+            "contexto sensível",
+            "parâmetros de URL"
+        ]
+    },
+    {
+        "id": "wwwwwhke",
+        "type": "review",
+        "name": "WWWWWHKE (Who, Why, Where, What, When, How, Knowledge, Experience)",
+        "description": "Análise 360º de requisitos questionando completude, lógica e viabilidade através de perguntas fundamentais.",
+        "triggers": [
+            "refinement",
+            "requisitos vagos",
+            "funcionalidades complexas",
+            "projetos regulados"
+        ]
+    }
+]
