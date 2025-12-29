@@ -12,7 +12,7 @@ O **Teste de Aceite** é a fase final de testes antes da liberação do software
 
 ## Tipos de Teste de Aceite
 
-A escolha do tipo de teste de aceite a ser realizado depende do contexto do projeto, da natureza do software e dos critérios que definem o seu sucesso.   
+A escolha do tipo de teste de aceite a ser realizado depende do contexto do projeto, da natureza do software e dos critérios que definem o seu sucesso.
 
 A variedade de tipos de testes de aceite demonstra que a "aceitação" de um software é um conceito multidimensional, que vai muito além da simples funcionalidade da interface do usuário. Um software pode ser perfeitamente funcional para o usuário (passando no UAT), mas ser impossível de manter pela equipe de TI (falhando no OAT). Pode ser amado pelos usuários e fácil de manter, mas violar uma nova lei de proteção de dados (falhando no RAT). Ou pode passar em todos esses testes, mas não entregar uma funcionalidade específica que estava no contrato de desenvolvimento (falhando no CAT).
 
