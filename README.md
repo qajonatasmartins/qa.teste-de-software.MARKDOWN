@@ -274,6 +274,10 @@ Especialidades para o futuro da qualidade
 - [📖 Livros QA](04-RECURSOS/01-livros-e-referencias/livros-qa/livros.md)
 - [⭐ Referências de Qualidade](04-RECURSOS/01-livros-e-referencias/referencias-qualidade/referencia_de_qualidade.md)
 
+#### **Abordagens**
+
+- [🔗 Steel Threads](04-RECURSOS/07-abordagens/steel-threads.md) - Abordagem para identificar e validar caminhos críticos de execução em sistemas complexos
+
 #### **Canais e Palestras**
 
 - [📺 Canais do YouTube](04-RECURSOS/03-canais-e-palestras/canais-youtube/canaisQA.md)
