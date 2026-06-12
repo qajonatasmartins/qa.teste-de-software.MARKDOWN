@@ -292,6 +292,7 @@ Especialidades para o futuro da qualidade
 ### 📚 **05-ESPECIALIDADES**
 
 - [Heuristicas de Teste formatadas para IA Agent](05-ESPECIALIDADES/agentTesting/heuristicas/)
+- [Skills-testing-qa](https://github.com/qajonatasmartins/skills-testing-qa)
 
 ## 📝 **Como Contribuir**
 
