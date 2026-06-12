@@ -138,8 +138,9 @@ Especialidades para o futuro da qualidade
 - [👥 Teste em Pares](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/em_pares.md)
 - [👥 Teste Transição de estados](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/transicao_de_estado.md)
 
-##### **Técnicas de Caixa Preta**
+##### **Técnicas de Caixa branca**
 
+- [MC-DC](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-branca/mc-dc.md)
 - [🧟‍♂️ Mutação](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-branca/mutacao.md)
 
 ##### **Testes Estáticos**
@@ -234,14 +235,6 @@ Especialidades para o futuro da qualidade
 
 - [🧠 Baseado em Experiência](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-baseadas-experiencia/baseado_em_experiencia.md)
 
-##### **Técnicas de Caixa Preta**
-
-- [🔢 Análise de Valor Limite](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/analise_de_valor_limite.md)
-- [🎯 Particionamento de Equivalência](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/particionamento_de_equivalencia.md)
-- [📋 Tabela de Decisão](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/tabela_de_decisao.md)
-- [🎲 Adivinhação de Erro](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/advinhacao_erro.md)
-- [👥 Teste em Pares](02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/em_pares.md)
-
 #### **Automação Básica**
 
 - [🛠️ Introdução aos Frameworks](02-INTERMEDIARIO/02-automacao-basica/frameworks-introducao/introducao_frameworks.md)
@@ -299,7 +292,6 @@ Especialidades para o futuro da qualidade
 ### 📚 **05-ESPECIALIDADES**
 
 - [Heuristicas de Teste formatadas para IA Agent](05-ESPECIALIDADES/agentTesting/heuristicas/)
-
 
 ## 📝 **Como Contribuir**
 

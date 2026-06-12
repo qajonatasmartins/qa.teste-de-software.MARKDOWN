@@ -4,14 +4,12 @@ O teste de caixa preta é executado tomando-se como base os requisitos e funcion
 
 Para tratar este tipo de teste de caixa preta, existem técnicas que podem ser usadas e as principais são:
 
-- [Particionamento de equivalência (classe de equivalência)](./t%C3%A9cnicas%20de%20caixa%20preta/particionamento_de_equivalencia.md)
-- [Analise de valor limite (valores limítrofes)](./t%C3%A9cnicas%20de%20caixa%20preta/analise_de_valor_limite.md)
-- [Tabela de decisão](./t%C3%A9cnicas%20de%20caixa%20preta/tabela_de_decisao.md)
-- [Adivinhação de erro (Erro imaginado)](./t%C3%A9cnicas%20de%20caixa%20preta/advinhacao_erro.md)
-- [Combinação de dados (Teste de todos os pares)](./t%C3%A9cnicas%20de%20caixa%20preta/em_pares.md)
-- [Estado de transição (tabela de transição de estado)](./t%C3%A9cnicas%20de%20caixa%20preta/transicao_de_estado.md)
-- [Caso de uso](./t%C3%A9cnicas%20de%20caixa%20preta/casos_de_uso.md)
-- [Baseado em grafo (arvore de classificação)](./t%C3%A9cnicas%20de%20caixa%20preta//arvore_de_classificacao.md)
+- [Particionamento de equivalência (classe de equivalência)](../../../../02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/particionamento_de_equivalencia.md)
+- [Analise de valor limite (valores limítrofes)](../../../../02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/analise_de_valor_limite.md)
+- [Tabela de decisão](../../../../02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/tabela_de_decisao.md)
+- [Adivinhação de erro (Erro imaginado)](../../../../02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/advinhacao_erro.md)
+- [Combinação de dados (Teste de todos os pares)](../../../../02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/em_pares.md)
+- [Estado de transição (tabela de transição de estado)](../../../../02-INTERMEDIARIO/01-tecnicas-de-teste/tecnicas-caixa-preta/transicao_de_estado.md)
 
 ## Referências
 
