@@ -17,6 +17,8 @@
 - [CodeceptJS](https://codecept.io/)
 - [Testcafe](https://testcafe.io/)
 - [Vibium](https://vibium.com/docs/)
+- [Taiko](https://taiko.dev/)
+- [Gauge](https://gauge.org/)
 
 ## API
 
