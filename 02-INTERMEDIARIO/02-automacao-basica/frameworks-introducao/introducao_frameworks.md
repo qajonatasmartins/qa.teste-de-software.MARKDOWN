@@ -6,6 +6,7 @@
 - [Maestro](https://github.com/mobile-dev-inc/maestro)
 - [CodeceptJS](https://codecept.io/)
 - [Detox](https://wix.github.io/Detox/)
+- [Mobilewright](https://mobilewright.dev/docs/)
 
 ## Web
 
@@ -15,6 +16,7 @@
 - [Robotframework](https://robotframework.org/)
 - [CodeceptJS](https://codecept.io/)
 - [Testcafe](https://testcafe.io/)
+- [Vibium](https://vibium.com/docs/)
 
 ## API
 
