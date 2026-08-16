@@ -214,6 +214,7 @@ Especialidades para o futuro da qualidade
 - [📍 Position](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/position.md)
 - [🔄 RCRCRC](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/rcrcrc.md)
 - [🙏 SACRED](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/sacred.md)
+- [🔧 SFDIPOT](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/SFDIPOT.md)
 - [👁️ Seen and Heard](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/seen_and_heard.md)
 - [🎯 Selection](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/selection.md)
 - [🔢 Sequences](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/sequences.md)
