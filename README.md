@@ -37,11 +37,11 @@ Especialidades para o futuro da qualidade
 
 ## 🎯 **Trilha de Aprendizado Recomendada**
 
-``` text
-01-INICIANTE (Fundamentos) 
+```text
+01-INICIANTE (Fundamentos)
      ↓
 02-INTERMEDIARIO (Especialização)
-     ↓  
+     ↓
 03-AVANCADO (Liderança)
      ↓
 05-ESPECIALIDADES (Futuro)
@@ -62,7 +62,7 @@ Especialidades para o futuro da qualidade
 ### Progressão Estruturada
 
 1. **Teoria** → Conceitos fundamentais
-2. **Prática** → Aplicação hands-on  
+2. **Prática** → Aplicação hands-on
 3. **Especialização** → Áreas específicas
 4. **Liderança** → Gestão e estratégia
 5. **Inovação** → Tecnologias emergentes
@@ -80,7 +80,7 @@ Especialidades para o futuro da qualidade
 ### Fontes Autorizadas
 
 - **ISTQB** - International Software Testing Qualifications Board
-- **ISO/IEC** - International Organization for Standardization  
+- **ISO/IEC** - International Organization for Standardization
 - **IEEE** - Institute of Electrical and Electronics Engineers
 - **ACM** - Association for Computing Machinery
 - **Revistas acadêmicas** revisadas por pares
@@ -190,6 +190,7 @@ Especialidades para o futuro da qualidade
 
 - [👀 Folha de trapaça](https://s3.eu-west-1.amazonaws.com/matrix.assets/xjhjzb1vzrdncmb4hc3tqg11da2q)
 - [🥹 Emotions](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/emotions.md)
+- [🧑‍🧒‍🧒 ALTER FACE](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/alter_face.md)
 - [📊 BAICA](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/baica.md)
 - [🔢 Boundaries](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/boundaries.md)
 - [✨ CHIQUE](02-INTERMEDIARIO/01-tecnicas-de-teste/heuristicas/chique.md)
@@ -313,14 +314,14 @@ Segue o passo a passo
 
 - Certifique-se de estar na branch principal do repositório (geralmente chamada de "main" ou "master").
 
-``` git
+```git
 git checkout main
 git pull origin main
 ```
 
 - Crie uma nova branch para o seu trabalho. Dê a ela um nome descritivo relacionado à tarefa que você está realizando.
 
-``` git
+```git
 git checkout -b nome-da-sua-branch
 ```
 
@@ -328,15 +329,15 @@ git checkout -b nome-da-sua-branch
 
 - Faça as alterações desejadas nos arquivos do projeto. Use os seguintes comandos para adicionar e commitar suas alterações.
 
-``` git
+```git
 git add .
-git commit -m 
+git commit -m
 "Descrição curta das suas alterações"
 ```
 
 #### Passo 4: Push das Alterações para o Seu Repositório Fork
 
-``` git
+```git
 git push origin nome-da-sua-branch
 ```
 
