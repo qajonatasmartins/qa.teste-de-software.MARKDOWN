@@ -1,4 +1,4 @@
-# State-Transition Testing or Use Case Testing
+<img width="4916" height="1892" alt="image" src="https://github.com/user-attachments/assets/d2984dc2-cfe5-455c-a387-ffadcec8a14e" /># State-Transition Testing or Use Case Testing
 
 Ideal para sistemas que precisam armazenar um histórico do que aconteceu (estados) e reagir de maneira diferente a eventos dependendo do seu estado atual.
 
@@ -24,12 +24,18 @@ O teste baseado em estados é **ideal quando lidamos com lógicas de negócios e
 
 A utilização da técnica segue um processo estruturado a partir da especificação do software:
 
-1. **Identifique e defina os estados** possíveis em que o componente ou o sistema pode estar.
-2. **Defina as transições** entre esses estados, identificando os eventos (ou gatilhos) e as condições que causam essas mudanças, bem como as ações de saída esperadas.
+1. **Identifique e defina os estados (States)** possíveis em que o componente ou o sistema pode estar. Nesse primeiro passo você deve mapear e listar todos os estados possíveis em que o sistema pode se encontrar. Um estado é uma condição em que o sistema fica passivo aguardando por um ou mais eventos. 
+2. **Defina as transições(Events)** entre esses estados, identificando os eventos (ou gatilhos) e as condições que causam essas mudanças, bem como as ações de saída esperadas. Os eventos são estímulos externos (ações do usuário) ou internos (como um temporizador que expira) que iniciam uma mudança no sistema.
 3. **Crie um Mapa/Diagrama de Transição de Estados ou uma Tabela de Transição de Estados**. Os diagramas facilitam a visualização dos caminhos válidos, enquanto as tabelas de decisão forçam o testador a cobrir de modo analítico as combinações inválidas ou não documentadas.
-4. **Defina os cenários e casos de teste** criando caminhos através do modelo. Adote a regra de que o teste deve iniciar em um estado inicial definido e terminar em um estado final (ou retornar ao estado de origem).
-5. Escolha o **nível de cobertura** desejado: testar apenas todos os estados, testar todas as transições (nível geralmente recomendado), cobrir "N-switch" (sequências encadeadas de N+1 transições) ou todas as rotas/caminhos (o que pode ser infinito se houver loops).
-6. Em sistemas de alto risco, teste também as combinações de estado e eventos inválidas (caminhos furtivos ou "sneak paths") para confirmar que o sistema as rejeita corretamente.
+   - Crie a estrutura da sua tabela com quatro colunas essenciais:
+     - **Current State (Estado Atual)**: A condição inicial do sistema antes do evento acontecer.
+     - **Event (Evento)**: O estímulo que atinge o sistema.
+     - **Action (Ação)**: A resposta ou operação iniciada pelo sistema devido à transição.
+     - **Next State (Próximo Estado)**: A nova situação para a qual o sistema se move após a transição se concretizar.
+5. **Definir as Ações e Próximos Estados para cada Linha:** Para garantir que a tabela seja verdadeiramente robusta e sistemática, a regra de ouro é listar todas as combinações possíveis de Estado e Evento, e não apenas as que você sabe que são caminhos válidos. Se você mapeou **S** estados e **E** eventos, sua tabela deve ter sistematicamente **S** x **E** linhas. Para fazer isso, pegue o primeiro estado na lista de Current State e crie uma linha para ele com cada um dos eventos mapeados. Depois, passe para o próximo estado e repita o processo para todos os eventos, e assim por diante. **Nota:** Embora isso faça com que a tabela cresça muito rapidamente e muitas células fiquem sem ações (tabelas esparsas), esse rigor exaustivo é o que ajuda a expor brechas nos requisitos e a identificar regras de negócio que não foram planejadas. Escolha o **nível de cobertura** desejado: testar apenas todos os estados, testar todas as transições (nível geralmente recomendado), cobrir "N-switch" (sequências encadeadas de N+1 transições) ou todas as rotas/caminhos (o que pode ser infinito se houver loops).
+6. **Extrair os Casos de Teste diretamente da Tabela** criando caminhos através do modelo. Adote a regra de que o teste deve iniciar em um estado inicial definido e terminar em um estado final (ou retornar ao estado de origem). Depois de preencher a tabela, a extração dos testes torna-se direta: 
+  - **Testes de Transição Válidos (Positivos)**: Cada linha que possui uma transição legítima (com mudanças de estado ou ações válidas) se transforma em um caso de teste para validar o caminho feliz e as rotas alternativas do sistema.
+  - **Testes de Transição Inválidos (Negativos/Robustez)**: Dependendo do nível de risco do sistema, você criará casos de teste para os pares inválidos (as combinações que resultaram em **--**) para garantir que o desenvolvedor implementou as proteções adequadas e que o software de fato rejeita transições não permitidas. **Nota:** Em sistemas de alto risco, teste também as combinações de estado e eventos inválidas (caminhos furtivos ou "sneak paths") para confirmar que o sistema as rejeita corretamente.
 
 ## **Exemplos práticos**
 
@@ -86,7 +92,7 @@ describe("transitarCatraca", () => {
 
 ### Tabela de transição de estados
 
-| Estado atual | Evento | Próximo estado | Válido? |
+| Estado atual (Current State) | Evento (Event) | Próximo estado (Next State) | Válido? |
 |--------------|--------|----------------|---------|
 | locked | coin | unlocked | Sim |
 | unlocked | pass | locked | Sim |
@@ -159,7 +165,7 @@ describe("transitarReserva", () => {
 
 ### Tabela de transição de estados
 
-| Estado | Evento | Próximo | Válido? |
+| Estado(State) | Evento (Events) | Próximo (Next State) | Válido? |
 |--------|--------|---------|---------|
 | made | payMoney | paid | Sim |
 | made | payTimerExpires | cancelled | Sim |
@@ -167,6 +173,10 @@ describe("transitarReserva", () => {
 | ticketed | useTicket | used | Sim |
 | made | issueTicket | — | Não |
 | cancelled | payMoney | — | Não |
+
+## 3. Login de uma aplicação com bloqueio de conta.
+
+
 
 ## Referências
 
