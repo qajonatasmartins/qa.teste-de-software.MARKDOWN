@@ -176,7 +176,64 @@ describe("transitarReserva", () => {
 
 ## 3. Login de uma aplicação com bloqueio de conta.
 
+### Tabela de Transição de Estados Simplificada — Processo de Login
 
+A seguir, apresento uma maneira visual de representar a técnica de teste de transição de estados. Essa abordagem facilita o entendimento e a comunicação entre QAs e desenvolvedores. Embora a criação da tabela de transição continue sendo fundamental, essa representação esquemática serve como um excelente complemento: ela auxilia na elaboração, execução e memorização dos testes, além de destacar sua atuação profissional na equipe.
+
+#### Exemplo 1
+
+![Exemplo 1](./img/State%20Transition%20-%20Exemplo%201.jpg)
+
+#### Exemplo 2
+
+![Exemplo 2](./img/State%20Transition%20-%20Exemplo%202.jpg)
+
+#### Exemplo 3
+
+![Exemplo 3](./img/State%20Transition%20-%20Exemplo%203.jpg)
+
+### Tabela de Transição de Estados Exaustiva — Processo de Login
+
+> Mapeamento de todas as combinações de Estado Atual × Evento (S × E = 35 linhas).
+> Baseado na metodologia de Lee Copeland.
+
+| Estado Atual              | Evento                                     | Ação do Sistema                         | Próximo Estado         | Tipo de Transição | Nota de Implementação / Validação                                                  |
+|--------------------------|--------------------------------------------|-----------------------------------------|-----------------------|-------------------|------------------------------------------------------------------------------------|
+| null                     | abrirApp                                   | mostrarTelaInicial                      | Deslogado             | Válida            | App inicializado com sucesso; usuário é direcionado para a tela deslogada.          |
+| null                     | clicarLogin                                | --                                      | null                  | Inválida          | Evento impossível de ocorrer pois o app ainda não foi aberto.                       |
+| null                     | enviarDados [senhaValida]                  | --                                      | null                  | Inválida          | Credenciais não podem ser enviadas antes do app ser aberto.                         |
+| null                     | enviarDados [senhaInvalida && tent < 3]    | --                                      | null                  | Inválida          | Credenciais não podem ser enviadas antes do app ser aberto.                         |
+| null                     | enviarDados [senhaInvalida && tent == 3]   | --                                      | null                  | Inválida          | Credenciais não podem ser enviadas antes do app ser aberto.                         |
+| null                     | clicarSair                                 | --                                      | null                  | Inválida          | Impossível clicar em sair sem o app estar aberto e autenticado.                     |
+| null                     | fecharApp                                  | --                                      | null                  | Inválida          | App não pode ser fechado pois ainda não foi iniciado.                               |
+| Deslogado                | abrirApp                                   | --                                      | Deslogado             | Inválida          | O app já está aberto e na tela inicial deslogada.                                   |
+| Deslogado                | clicarLogin                                | exibirCampos                            | Aguardando Credenciais | Válida            | Usuário clica para fazer login; o sistema exibe os campos de input.                 |
+| Deslogado                | enviarDados [senhaValida]                  | --                                      | Deslogado             | Inválida          | Não é possível enviar dados sem abrir os campos de login.                           |
+| Deslogado                | enviarDados [senhaInvalida && tent < 3]    | --                                      | Deslogado             | Inválida          | Não é possível enviar dados sem abrir os campos de login.                           |
+| Deslogado                | enviarDados [senhaInvalida && tent == 3]   | --                                      | Deslogado             | Inválida          | Não é possível enviar dados sem abrir os campos de login.                           |
+| Deslogado                | clicarSair                                 | --                                      | Deslogado             | Inválida          | O usuário não está autenticado para poder deslogar.                                 |
+| Deslogado                | fecharApp                                  | encerrarProcesso                        | null                  | Válida            | O usuário fecha o app diretamente da tela inicial.                                  |
+| Aguardando Credenciais   | abrirApp                                   | --                                      | Aguardando Credenciais | Inválida          | O app já está aberto.                                                               |
+| Aguardando Credenciais   | clicarLogin                                | --                                      | Aguardando Credenciais | Inválida          | Os campos de login já estão sendo exibidos.                                         |
+| Aguardando Credenciais   | enviarDados [senhaValida]                  | limparTentativas; redirecionarPainel    | Autenticado           | Válida            | Autenticação bem-sucedida; limpa contador de tentativas e redireciona ao painel.    |
+| Aguardando Credenciais   | enviarDados [senhaInvalida && tent < 3]    | incrementarTentativas; mostrarErro      | Aguardando Credenciais | Válida            | Senha incorreta, mas abaixo do limite. Incrementa contador e exibe mensagem de erro.|
+| Aguardando Credenciais   | enviarDados [senhaInvalida && tent == 3]   | bloquearUsuario; mostrarBloqueio        | Bloqueado             | Válida            | Atingiu a 3ª tentativa errada. Bloqueia a conta e exibe aviso de segurança.         |
+| Aguardando Credenciais   | clicarSair                                 | --                                      | Aguardando Credenciais | Inválida          | O usuário precisa preencher os dados ou fechar o app.                               |
+| Aguardando Credenciais   | fecharApp                                  | encerrarProcesso                        | null                  | Válida            | Usuário desiste do login e fecha o aplicativo.                                      |
+| Autenticado              | abrirApp                                   | --                                      | Autenticado           | Inválida          | O usuário já está logado e o app está rodando.                                      |
+| Autenticado              | clicarLogin                                | --                                      | Autenticado           | Inválida          | Usuário já está logado; botão de login indisponível.                                |
+| Autenticado              | enviarDados [senhaValida]                  | --                                      | Autenticado           | Inválida          | O formulário de login não está mais ativo.                                          |
+| Autenticado              | enviarDados [senhaInvalida && tent < 3]    | --                                      | Autenticado           | Inválida          | O formulário de login não está mais ativo.                                          |
+| Autenticado              | enviarDados [senhaInvalida && tent == 3]   | --                                      | Autenticado           | Inválida          | O formulário de login não está mais ativo.                                          |
+| Autenticado              | clicarSair                                 | limparSessao                            | Deslogado             | Válida            | Usuário clica em Logout; encerra a sessão ativa e retorna à tela inicial.           |
+| Autenticado              | fecharApp                                  | encerrarProcesso                        | null                  | Válida            | O usuário fecha o app logado; encerra a sessão e finaliza o processo.               |
+| Bloqueado                | abrirApp                                   | --                                      | Bloqueado             | Inválida          | A conta continua bloqueada se reabrir o app sem intervenção de suporte.             |
+| Bloqueado                | clicarLogin                                | --                                      | Bloqueado             | Inválida          | Não é permitido tentar logar com a conta bloqueada.                                 |
+| Bloqueado                | enviarDados [senhaValida]                  | --                                      | Bloqueado             | Inválida          | Ação de envio desabilitada devido ao bloqueio.                                      |
+| Bloqueado                | enviarDados [senhaInvalida && tent < 3]    | --                                      | Bloqueado             | Inválida          | Ação de envio desabilitada devido ao bloqueio.                                      |
+| Bloqueado                | enviarDados [senhaInvalida && tent == 3]   | --                                      | Bloqueado             | Inválida          | Ação de envio desabilitada devido ao bloqueio.                                      |
+| Bloqueado                | clicarSair                                 | --                                      | Bloqueado             | Inválida          | Impossível deslogar pois o usuário não está autenticado.                            |
+| Bloqueado                | fecharApp                                  | encerrarProcesso                        | null                  | Válida            | Usuário fecha o app com tela de bloqueio ativa.                                     |
 
 ## Referências
 
