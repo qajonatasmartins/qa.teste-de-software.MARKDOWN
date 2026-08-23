@@ -1,4 +1,4 @@
-<img width="4916" height="1892" alt="image" src="https://github.com/user-attachments/assets/d2984dc2-cfe5-455c-a387-ffadcec8a14e" /># State-Transition Testing or Use Case Testing
+# State-Transition Testing or Use Case Testing
 
 Ideal para sistemas que precisam armazenar um histórico do que aconteceu (estados) e reagir de maneira diferente a eventos dependendo do seu estado atual.
 
